@@ -1,3 +1,22 @@
+"""
+cmds
+cd ~/PycharmProjects/WPI-RBE-500-FinalProject
+source /opt/ros/jazzy/setup.bash
+colcon build --packages-select rbe500_example_py
+source install/setup.bash
+ros2 launch open_manipulator_x_controller open_manipulator_x_controller.launch.py usb_port:=/dev/serial/by-id/usb-FTDI_USB__-__Serial_Converter_FTBEO749-if00-port0
+
+cd ~/PycharmProjects/WPI-RBE-500-FinalProject
+source /opt/ros/jazzy/setup.bash
+source install/setup.bash
+ros2 run rbe500_example_py forward_kinematics
+
+cd ~/PycharmProjects/WPI-RBE-500-FinalProject
+source /opt/ros/jazzy/setup.bash
+source install/setup.bash
+ros2 topic pub --once /calculate_forward_pose std_msgs/msg/Float32MultiArray "{data: [0.5, 0.0, 0.0, 0.0]}"
+"""
+
 import math
 
 import numpy as np
@@ -5,9 +24,14 @@ import numpy as np
 import rclpy
 from rclpy.node import Node
 from open_manipulator_msgs.srv import SetJointPosition
-import sys
 
 from std_msgs.msg import Float32MultiArray
+
+# length constants (mm)
+L1 = 96.326
+L2 = 128 
+L3 = 124 # check if this is correct with the actual robot
+L4 = 133.4
 
 # calculate DH matrix
 def forward_kinematics(a, q, d, aa):
@@ -26,43 +50,39 @@ class BasicRobotControl(Node):
     def __init__(self):
         super().__init__('calculate_pose')
 
-        # create subscription for forward kinematics
+        # create subscription for calculating forward kinematics
         self.fk_subscription = self.create_subscription(
             Float32MultiArray,
             'calculate_forward_pose',
             self.calculate_forward_pose_callback,
             10)
 
+        # create client for setting joint position
+        self.client = self.create_client(SetJointPosition, 'goal_joint_space_path')
+
     def calculate_forward_pose_callback(self, msg):
         # message angles
-        q1, q2, q3 = msg.data
+        q1, q2, q3, q4 = msg.data
 
-        # frame transformation
-        a1 = forward_kinematics(0, q1, D1_CONSTANT, math.radians(270))
-        a2 = forward_kinematics(D2_CONSTANT, q2, 0, 0)
-        a3 = forward_kinematics(D3_CONSTANT, q3, 0, 0)
+        # frame transformation (FIX ONCE HAVE TABLE)
+        a1 = forward_kinematics(0, q1, L1, math.radians(270))
+        a2 = forward_kinematics(L2, q2, 0, 0)
+        a3 = forward_kinematics(L3, q3, 0, 0)
+        a4 = forward_kinematics(L4, q4, 0, 0)
 
-        t03 = np.array(a1) @ np.array(a2) @ np.array(a3)
+        t04 = np.array(a1) @ np.array(a2) @ np.array(a3) @ np.array(a4)
 
         # print matrix
-        self.get_logger().info(f'T03 =\n{t03}')
+        self.get_logger().info(f'T04 =\n{t04}')
 
-def main(args=None):
-    rclpy.init(args=args)
-
-    basic_robot_control = BasicRobotControl()
-
-    while rclpy.ok():
-        rclpy.spin_once(basic_robot_control)
-        if basic_robot_control.future.done():
-            try:
-                response = basic_robot_control.future.result()
-            except Exception as e:
-                basic_robot_control.get_logger().error('Service call failed %r' % (e,))
-            break
-
-    basic_robot_control.destroy_node()
-    rclpy.shutdown()
+        # send request to set joint position
+        request = SetJointPosition.Request()
+        request.planning_group = ''
+        request.joint_position.joint_name = ['joint1', 'joint2', 'joint3', 'joint4', 'gripper']
+        request.joint_position.position = [q1, q2, q3, q4, 0.0]
+        request.path_time = 5.0
+        
+        self.future = self.client.call_async(request)
 
 # main
 def main(args=None):
