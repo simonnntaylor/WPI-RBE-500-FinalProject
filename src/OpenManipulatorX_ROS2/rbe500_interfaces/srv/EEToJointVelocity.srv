@@ -1,0 +1,7 @@
+# joint angles (rad)
+float64[] q
+# end effector linear velocity [vx, vy, vz] (mm/s)
+float64[] ee_vel
+---
+# joint velocities (rad/s)
+float64[] q_dot

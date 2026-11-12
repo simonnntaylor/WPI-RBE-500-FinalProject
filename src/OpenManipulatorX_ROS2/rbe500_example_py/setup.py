@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'basic_robot_control = rbe500_example_py.basic_robot_control:main'
+            'basic_robot_control = rbe500_example_py.basic_robot_control:main',
+            'velocity_kinematics = rbe500_example_py.velocity_kinematics:main',
         ],
     },
 )
