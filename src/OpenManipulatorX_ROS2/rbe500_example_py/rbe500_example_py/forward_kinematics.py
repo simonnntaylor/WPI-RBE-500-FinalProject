@@ -14,7 +14,7 @@ ros2 run rbe500_example_py forward_kinematics
 cd ~/PycharmProjects/WPI-RBE-500-FinalProject
 source /opt/ros/jazzy/setup.bash
 source install/setup.bash
-ros2 topic pub --once /calculate_forward_pose std_msgs/msg/Float32MultiArray "{data: [0.5, 0.0, 0.0, 0.0]}"
+ros2 topic pub --once /calculate_forward_pose std_msgs/msg/Float32MultiArray "{data: [0.0, 0.0, 0.0, 0.0]}"
 """
 
 import math
@@ -64,10 +64,10 @@ class BasicRobotControl(Node):
         # message angles
         q1, q2, q3, q4 = msg.data
 
-        # frame transformation (FIX ONCE HAVE TABLE)
-        a1 = forward_kinematics(0, q1, L1, math.radians(270))
-        a2 = forward_kinematics(L2, q2, 0, 0)
-        a3 = forward_kinematics(L3, q3, 0, 0)
+        # frame transformation
+        a1 = forward_kinematics(0, q1, L1, math.radians(90))
+        a2 = forward_kinematics(math.sqrt(L2**2 + 24**2), q2 + math.atan2(L2, 24), 0, 0)
+        a3 = forward_kinematics(L3, q3 + math.atan2(24, L2) + math.radians(270), 0, 0)
         a4 = forward_kinematics(L4, q4, 0, 0)
 
         t04 = np.array(a1) @ np.array(a2) @ np.array(a3) @ np.array(a4)
