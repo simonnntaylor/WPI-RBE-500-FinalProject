@@ -1,0 +1,9 @@
+# desired end effector position (mm)
+float64 x
+float64 y
+float64 z
+# desired gripper pitch (rad), 0 = pointing straight out, pi/2 = pointing straight down
+float64 pitch
+---
+# joint positions [q1, q2, q3, q4] (rad), empty if the pose can't be reached
+float64[] q
