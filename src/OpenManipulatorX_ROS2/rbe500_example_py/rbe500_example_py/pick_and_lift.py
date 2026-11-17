@@ -27,8 +27,8 @@ from open_manipulator_msgs.srv import SetJointPosition
 from rbe500_interfaces.srv import InverseKinematics
 
 # object location on the chessboard (mm), measure this on the real setup
-OBJECT_X = 200.0
-OBJECT_Y = 0.0
+OBJECT_X = 150.0
+OBJECT_Y = 00.0
 OBJECT_Z = 20.0
 
 # how far above the object the pre-grasp pose is (mm)
@@ -38,8 +38,8 @@ PRE_GRASP_HEIGHT = 80.0
 PITCH = math.pi / 2
 
 # gripper positions
-GRIPPER_OPEN = 0.01
-GRIPPER_CLOSED = -0.01
+GRIPPER_OPEN = -0.01
+GRIPPER_CLOSED = 0.01
 
 # time for each move (s)
 PATH_TIME = 3.0

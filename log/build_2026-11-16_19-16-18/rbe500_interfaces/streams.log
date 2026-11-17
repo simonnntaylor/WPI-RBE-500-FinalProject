@@ -1,0 +1,207 @@
+[0.005s] Invoking command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/rbe500_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces
+[0.118s] -- The C compiler identification is GNU 13.3.0
+[0.172s] -- The CXX compiler identification is GNU 13.3.0
+[0.182s] -- Detecting C compiler ABI info
+[0.238s] -- Detecting C compiler ABI info - done
+[0.242s] -- Check for working C compiler: /usr/bin/ccache - skipped
+[0.242s] -- Detecting C compile features
+[0.242s] -- Detecting C compile features - done
+[0.247s] -- Detecting CXX compiler ABI info
+[0.296s] -- Detecting CXX compiler ABI info - done
+[0.301s] -- Check for working CXX compiler: /usr/bin/ccache - skipped
+[0.301s] -- Detecting CXX compile features
+[0.301s] -- Detecting CXX compile features - done
+[0.315s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.385s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.429s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.461s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.468s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.511s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.550s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.851s] -- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.056s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.302s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.305s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.368s] -- Found PythonExtra: /usr/bin/python3  
+[1.580s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.612s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.621s] -- Configuring done (1.6s)
+[1.642s] -- Generating done (0.0s)
+[1.648s] -- Build files have been written to: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_interfaces
+[1.655s] Invoked command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/rbe500_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces
+[1.655s] Invoking command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_interfaces -- -j4 -l4
+[1.679s] [  2%] Generating type hashes for ROS interfaces
+[1.679s] [  5%] Generating Rust code for ROS interfaces
+[1.683s] [  5%] Built target ament_cmake_python_symlink_rbe500_interfaces
+[1.781s] [  5%] Built target rbe500_interfaces__rosidl_generator_type_description
+[1.784s] running egg_info
+[1.786s] creating rbe500_interfaces.egg-info
+[1.791s] [  8%] Generating C code for ROS interfaces
+[1.792s] [ 11%] Generating C++ code for ROS interfaces
+[1.796s] writing rbe500_interfaces.egg-info/PKG-INFO
+[1.796s] writing dependency_links to rbe500_interfaces.egg-info/dependency_links.txt
+[1.796s] writing top-level names to rbe500_interfaces.egg-info/top_level.txt
+[1.796s] writing manifest file 'rbe500_interfaces.egg-info/SOURCES.txt'
+[1.807s] [ 11%] Built target rbe500_interfaces__rs
+[1.823s] reading manifest file 'rbe500_interfaces.egg-info/SOURCES.txt'
+[1.826s] writing manifest file 'rbe500_interfaces.egg-info/SOURCES.txt'
+[1.839s] [ 11%] Built target ament_cmake_python_build_rbe500_interfaces_egg
+[1.922s] [ 11%] Built target rbe500_interfaces__cpp
+[1.950s] [ 14%] Building C object CMakeFiles/rbe500_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rbe500_interfaces/srv/detail/inverse_kinematics__description.c.o
+[1.950s] [ 17%] Building C object CMakeFiles/rbe500_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rbe500_interfaces/srv/detail/inverse_kinematics__functions.c.o
+[1.950s] [ 20%] Building C object CMakeFiles/rbe500_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rbe500_interfaces/srv/detail/inverse_kinematics__type_support.c.o
+[2.038s] [ 22%] Linking C shared library librbe500_interfaces__rosidl_generator_c.so
+[2.056s] [ 22%] Built target rbe500_interfaces__rosidl_generator_c
+[2.060s] [ 31%] Generating C++ type support for eProsima Fast-RTPS
+[2.060s] [ 31%] Generating C++ type support dispatch for ROS interfaces
+[2.061s] [ 31%] Generating C++ introspection for ROS interfaces
+[2.062s] [ 34%] Generating C type support for eProsima Fast-RTPS
+[2.179s] [ 37%] Building CXX object CMakeFiles/rbe500_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rbe500_interfaces/srv/inverse_kinematics__type_support.cpp.o
+[2.183s] [ 40%] Building CXX object CMakeFiles/rbe500_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rbe500_interfaces/srv/detail/inverse_kinematics__type_support.cpp.o
+[2.194s] [ 42%] Building CXX object CMakeFiles/rbe500_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rbe500_interfaces/srv/detail/dds_fastrtps/inverse_kinematics__type_support.cpp.o
+[2.202s] [ 45%] Building CXX object CMakeFiles/rbe500_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rbe500_interfaces/srv/detail/inverse_kinematics__type_support_c.cpp.o
+[2.696s] [ 48%] Linking CXX shared library librbe500_interfaces__rosidl_typesupport_cpp.so
+[2.727s] [ 51%] Linking CXX shared library librbe500_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.743s] [ 54%] Linking CXX shared library librbe500_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.743s] [ 54%] Built target rbe500_interfaces__rosidl_typesupport_cpp
+[2.748s] [ 57%] Generating C introspection for ROS interfaces
+[2.769s] [ 57%] Built target rbe500_interfaces__rosidl_typesupport_introspection_cpp
+[2.770s] [ 57%] Built target rbe500_interfaces__rosidl_typesupport_fastrtps_c
+[2.773s] [ 60%] Generating C type support dispatch for ROS interfaces
+[2.790s] [ 62%] Linking CXX shared library librbe500_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.824s] [ 62%] Built target rbe500_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.880s] [ 65%] Building C object CMakeFiles/rbe500_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rbe500_interfaces/srv/detail/inverse_kinematics__type_support.c.o
+[2.890s] [ 68%] Building CXX object CMakeFiles/rbe500_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rbe500_interfaces/srv/inverse_kinematics__type_support.cpp.o
+[2.924s] [ 71%] Linking C shared library librbe500_interfaces__rosidl_typesupport_introspection_c.so
+[2.929s] [ 74%] Linking CXX shared library librbe500_interfaces__rosidl_typesupport_c.so
+[2.943s] [ 74%] Built target rbe500_interfaces__rosidl_typesupport_introspection_c
+[2.952s] [ 74%] Built target rbe500_interfaces__rosidl_typesupport_c
+[2.961s] [ 74%] Built target rbe500_interfaces
+[2.969s] [ 77%] Generating Python code for ROS interfaces
+[3.135s] [ 77%] Built target rbe500_interfaces__py
+[3.143s] [ 80%] Building C object CMakeFiles/rbe500_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rbe500_interfaces/srv/_inverse_kinematics_s.c.o
+[3.262s] [ 82%] Linking C shared library librbe500_interfaces__rosidl_generator_py.so
+[3.280s] [ 82%] Built target rbe500_interfaces__rosidl_generator_py
+[3.289s] [ 85%] Building C object CMakeFiles/rbe500_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/rbe500_interfaces/_rbe500_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[3.289s] [ 88%] Building C object CMakeFiles/rbe500_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/rbe500_interfaces/_rbe500_interfaces_s.ep.rosidl_typesupport_c.c.o
+[3.289s] [ 91%] Building C object CMakeFiles/rbe500_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/rbe500_interfaces/_rbe500_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o
+[3.369s] [ 94%] Linking C shared module rosidl_generator_py/rbe500_interfaces/rbe500_interfaces_s__rosidl_typesupport_c.so
+[3.370s] [ 97%] Linking C shared module rosidl_generator_py/rbe500_interfaces/rbe500_interfaces_s__rosidl_typesupport_introspection_c.so
+[3.375s] [100%] Linking C shared module rosidl_generator_py/rbe500_interfaces/rbe500_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[3.384s] [100%] Built target rbe500_interfaces_s__rosidl_typesupport_c
+[3.385s] [100%] Built target rbe500_interfaces_s__rosidl_typesupport_introspection_c
+[3.390s] [100%] Built target rbe500_interfaces_s__rosidl_typesupport_fastrtps_c
+[3.395s] Invoked command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_interfaces -- -j4 -l4
+[3.400s] Invoking command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_interfaces
+[3.403s] -- Install configuration: ""
+[3.403s] -- Execute custom install script
+[3.403s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/ament_index/resource_index/rosidl_interfaces/rbe500_interfaces
+[3.408s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/srv/InverseKinematics.json
+[3.412s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/include/rbe500_interfaces/rbe500_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.416s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/include/rbe500_interfaces/rbe500_interfaces/srv/detail/inverse_kinematics__functions.h
+[3.421s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/include/rbe500_interfaces/rbe500_interfaces/srv/detail/inverse_kinematics__struct.h
+[3.424s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/include/rbe500_interfaces/rbe500_interfaces/srv/detail/inverse_kinematics__type_support.h
+[3.428s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/include/rbe500_interfaces/rbe500_interfaces/srv/inverse_kinematics.h
+[3.432s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/environment/library_path.sh
+[3.436s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/environment/library_path.dsv
+[3.441s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/include/rbe500_interfaces/rbe500_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.445s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/include/rbe500_interfaces/rbe500_interfaces/srv/detail/inverse_kinematics__rosidl_typesupport_fastrtps_c.h
+[3.448s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/include/rbe500_interfaces/rbe500_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.452s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/include/rbe500_interfaces/rbe500_interfaces/srv/detail/inverse_kinematics__rosidl_typesupport_introspection_c.h
+[3.456s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/include/rbe500_interfaces/rbe500_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.459s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/include/rbe500_interfaces/rbe500_interfaces/srv/detail/inverse_kinematics__builder.hpp
+[3.463s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/include/rbe500_interfaces/rbe500_interfaces/srv/detail/inverse_kinematics__struct.hpp
+[3.466s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/include/rbe500_interfaces/rbe500_interfaces/srv/detail/inverse_kinematics__traits.hpp
+[3.469s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/include/rbe500_interfaces/rbe500_interfaces/srv/detail/inverse_kinematics__type_support.hpp
+[3.473s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/include/rbe500_interfaces/rbe500_interfaces/srv/inverse_kinematics.hpp
+[3.476s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/include/rbe500_interfaces/rbe500_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.480s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/include/rbe500_interfaces/rbe500_interfaces/srv/detail/inverse_kinematics__rosidl_typesupport_fastrtps_cpp.hpp
+[3.483s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/include/rbe500_interfaces/rbe500_interfaces/srv/detail/inverse_kinematics__rosidl_typesupport_introspection_cpp.hpp
+[3.486s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/environment/pythonpath.sh
+[3.490s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/environment/pythonpath.dsv
+[3.493s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib/python3.12/site-packages/rbe500_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[3.498s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib/python3.12/site-packages/rbe500_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[3.501s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib/python3.12/site-packages/rbe500_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[3.505s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib/python3.12/site-packages/rbe500_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[3.508s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib/python3.12/site-packages/rbe500_interfaces/__init__.py
+[3.512s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib/python3.12/site-packages/rbe500_interfaces/_rbe500_interfaces_s.ep.rosidl_typesupport_c.c
+[3.516s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib/python3.12/site-packages/rbe500_interfaces/_rbe500_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.520s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib/python3.12/site-packages/rbe500_interfaces/_rbe500_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.524s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib/python3.12/site-packages/rbe500_interfaces/rbe500_interfaces_s__rosidl_typesupport_c.so
+[3.528s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib/python3.12/site-packages/rbe500_interfaces/rbe500_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[3.531s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib/python3.12/site-packages/rbe500_interfaces/rbe500_interfaces_s__rosidl_typesupport_introspection_c.so
+[3.534s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib/python3.12/site-packages/rbe500_interfaces/srv/__init__.py
+[3.538s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib/python3.12/site-packages/rbe500_interfaces/srv/_inverse_kinematics.py
+[3.541s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib/python3.12/site-packages/rbe500_interfaces/srv/_inverse_kinematics_s.c
+[3.545s] -- Up-to-date symlink: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib/python3.12/site-packages/rbe500_interfaces/rbe500_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[3.545s] -- Up-to-date symlink: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib/python3.12/site-packages/rbe500_interfaces/rbe500_interfaces_s__rosidl_typesupport_introspection_c.so
+[3.545s] -- Up-to-date symlink: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib/python3.12/site-packages/rbe500_interfaces/rbe500_interfaces_s__rosidl_typesupport_c.so
+[3.545s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/rust/Cargo.toml
+[3.550s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/rust/build.rs
+[3.553s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/rust/src/lib.rs
+[3.557s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/rust/src/srv.rs
+[3.562s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/rust/src/srv/rmw.rs
+[3.565s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/srv/InverseKinematics.idl
+[3.569s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/srv/InverseKinematics.srv
+[3.573s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/ament_index/resource_index/package_run_dependencies/rbe500_interfaces
+[3.576s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/ament_index/resource_index/parent_prefix_path/rbe500_interfaces
+[3.580s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/environment/ament_prefix_path.sh
+[3.584s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/environment/ament_prefix_path.dsv
+[3.587s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/environment/path.sh
+[3.590s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/environment/path.dsv
+[3.594s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/local_setup.bash
+[3.597s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/local_setup.sh
+[3.600s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/local_setup.zsh
+[3.604s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/local_setup.dsv
+[3.607s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/package.dsv
+[3.611s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/ament_index/resource_index/packages/rbe500_interfaces
+[3.615s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.619s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.623s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.627s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.631s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.634s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.638s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.641s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[3.644s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/cmake/rbe500_interfacesConfig.cmake
+[3.648s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/cmake/rbe500_interfacesConfig-version.cmake
+[3.651s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/package.xml
+[3.655s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib/librbe500_interfaces__rosidl_generator_c.so
+[3.655s] -- Set non-toolchain portion of runtime path of "/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib/librbe500_interfaces__rosidl_generator_c.so" to ""
+[3.655s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib/librbe500_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.655s] -- Set non-toolchain portion of runtime path of "/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib/librbe500_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.655s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib/librbe500_interfaces__rosidl_typesupport_introspection_c.so
+[3.655s] -- Set non-toolchain portion of runtime path of "/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib/librbe500_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.655s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib/librbe500_interfaces__rosidl_typesupport_c.so
+[3.656s] -- Set non-toolchain portion of runtime path of "/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib/librbe500_interfaces__rosidl_typesupport_c.so" to ""
+[3.656s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib/librbe500_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.656s] -- Set non-toolchain portion of runtime path of "/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib/librbe500_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.656s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib/librbe500_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.656s] -- Set non-toolchain portion of runtime path of "/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib/librbe500_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.656s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib/librbe500_interfaces__rosidl_typesupport_cpp.so
+[3.656s] -- Set non-toolchain portion of runtime path of "/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib/librbe500_interfaces__rosidl_typesupport_cpp.so" to ""
+[3.675s] Listing '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib/python3.12/site-packages/rbe500_interfaces'...
+[3.675s] Compiling '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib/python3.12/site-packages/rbe500_interfaces/__init__.py'...
+[3.675s] Listing '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib/python3.12/site-packages/rbe500_interfaces/srv'...
+[3.675s] Compiling '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib/python3.12/site-packages/rbe500_interfaces/srv/__init__.py'...
+[3.675s] Compiling '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib/python3.12/site-packages/rbe500_interfaces/srv/_inverse_kinematics.py'...
+[3.678s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib/librbe500_interfaces__rosidl_generator_py.so
+[3.678s] -- Set non-toolchain portion of runtime path of "/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib/librbe500_interfaces__rosidl_generator_py.so" to ""
+[3.678s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/cmake/export_rbe500_interfaces__rosidl_generator_cExport.cmake
+[3.678s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/cmake/export_rbe500_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.678s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/cmake/export_rbe500_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.678s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/cmake/export_rbe500_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.678s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/cmake/rbe500_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.678s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/cmake/rbe500_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.679s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/cmake/rbe500_interfaces__rosidl_typesupport_cExport.cmake
+[3.679s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/cmake/rbe500_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.679s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/cmake/export_rbe500_interfaces__rosidl_generator_cppExport.cmake
+[3.679s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/cmake/export_rbe500_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.679s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/cmake/export_rbe500_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.679s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/cmake/rbe500_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.679s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/cmake/rbe500_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.679s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/cmake/rbe500_interfaces__rosidl_typesupport_cppExport.cmake
+[3.679s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/cmake/rbe500_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.679s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/cmake/export_rbe500_interfaces__rosidl_generator_pyExport.cmake
+[3.680s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/cmake/export_rbe500_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.680s] Invoked command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_interfaces

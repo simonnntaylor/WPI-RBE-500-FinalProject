@@ -1,0 +1,1 @@
+/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/dynamixel_workbench/ament_cmake_environment_hooks/local_setup.sh

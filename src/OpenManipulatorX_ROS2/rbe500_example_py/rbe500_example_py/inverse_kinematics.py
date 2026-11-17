@@ -5,7 +5,10 @@ source install/setup.bash
 ros2 run rbe500_example_py inverse_kinematics
 
 ros2 service call /inverse_kinematics rbe500_interfaces/srv/InverseKinematics "{x: 281.4, y: 0.0, z: 224.326, pitch: 0.0}"
-ros2 service call /inverse_kinematics rbe500_interfaces/srv/InverseKinematics "{x: 200.0, y: 100.0, z: 50.0, pitch: 1.5708}"
+ros2 service call /inverse_kinematics rbe500_interfaces/srv/InverseKinematics "{x: 200.0, y: 50.0, z: 50.0, pitch: 1.5708}"
+
+calculate and move the arm, data is [x, y, z, pitch]
+ros2 topic pub --once /calculate_inverse_pose std_msgs/msg/Float32MultiArray "{data: [281.4, 0.0, 224.326, 0.0]}"
 """
 
 import math
@@ -13,6 +16,9 @@ import math
 import rclpy
 from rclpy.node import Node
 from rbe500_interfaces.srv import InverseKinematics
+from open_manipulator_msgs.srv import SetJointPosition
+
+from std_msgs.msg import Float32MultiArray
 
 # length constants (mm)
 L1 = 96.326
@@ -64,6 +70,38 @@ class InverseKinematicsNode(Node):
             InverseKinematics,
             'inverse_kinematics',
             self.inverse_kinematics_callback)
+
+        # create subscription for calculating inverse kinematics and moving the arm
+        self.ik_subscription = self.create_subscription(
+            Float32MultiArray,
+            'calculate_inverse_pose',
+            self.calculate_inverse_pose_callback,
+            10)
+
+        # create client for setting joint position
+        self.client = self.create_client(SetJointPosition, 'goal_joint_space_path')
+
+    def calculate_inverse_pose_callback(self, msg):
+        # message pose
+        x, y, z, pitch = msg.data
+
+        q = inverse_kinematics(x, y, z, pitch)
+
+        if q is None:
+            self.get_logger().error(f'pose ({x}, {y}, {z}, {pitch}) is not reachable')
+            return
+
+        # print joint positions
+        self.get_logger().info(f'q = {q}')
+
+        # send request to set joint position
+        request = SetJointPosition.Request()
+        request.planning_group = ''
+        request.joint_position.joint_name = ['joint1', 'joint2', 'joint3', 'joint4']
+        request.joint_position.position = q
+        request.path_time = 5.0
+
+        self.future = self.client.call_async(request)
 
     def inverse_kinematics_callback(self, request, response):
         # request pose

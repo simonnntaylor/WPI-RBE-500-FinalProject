@@ -1,0 +1,4 @@
+[01m[K/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_controller/src/open_manipulator_x_controller.cpp:[m[K In member function ‘[01m[Kvoid open_manipulator_x_controller::OpenManipulatorXController::[01;32m[Kinit_publisher[m[K()[m[K’:
+[01m[K/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_controller/src/open_manipulator_x_controller.cpp:103:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kname[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  103 |   for (auto const & [01;35m[Kname[m[K:tools_name)
+      |                     [01;35m[K^~~~[m[K

@@ -1,0 +1,52 @@
+[0.007s] Invoking command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/cmake_modules': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/open_manipulator_dependencies/cmake_modules -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/cmake_modules
+[0.082s] -- The C compiler identification is GNU 13.3.0
+[0.151s] -- The CXX compiler identification is GNU 13.3.0
+[0.157s] -- Detecting C compiler ABI info
+[0.262s] -- Detecting C compiler ABI info - done
+[0.267s] -- Check for working C compiler: /usr/bin/ccache - skipped
+[0.267s] -- Detecting C compile features
+[0.268s] -- Detecting C compile features - done
+[0.271s] -- Detecting CXX compiler ABI info
+[0.314s] -- Detecting CXX compiler ABI info - done
+[0.319s] -- Check for working CXX compiler: /usr/bin/ccache - skipped
+[0.319s] -- Detecting CXX compile features
+[0.319s] -- Detecting CXX compile features - done
+[0.322s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.391s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.425s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.501s] -- Configuring done (0.5s)
+[0.502s] -- Generating done (0.0s)
+[0.503s] -- Build files have been written to: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/cmake_modules
+[0.506s] Invoked command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/cmake_modules' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/open_manipulator_dependencies/cmake_modules -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/cmake_modules
+[0.507s] Invoking command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/cmake_modules': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/cmake_modules -- -j4 -l4
+[0.534s] Invoked command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/cmake_modules' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/cmake_modules -- -j4 -l4
+[0.543s] Invoking command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/cmake_modules': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/cmake_modules
+[0.558s] -- Install configuration: ""
+[0.558s] -- Execute custom install script
+[0.558s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/cmake_modules/share/cmake_modules/cmake/Modules/FindGSL.cmake
+[0.568s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/cmake_modules/share/cmake_modules/cmake/Modules/FindGflags.cmake
+[0.580s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/cmake_modules/share/cmake_modules/cmake/Modules/FindNUMPY.cmake
+[0.587s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/cmake_modules/share/cmake_modules/cmake/Modules/FindPoco.cmake
+[0.597s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/cmake_modules/share/cmake_modules/cmake/Modules/FindTBB.cmake
+[0.608s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/cmake_modules/share/cmake_modules/cmake/Modules/FindTinyXML.cmake
+[0.619s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/cmake_modules/share/cmake_modules/cmake/Modules/FindTinyXML2.cmake
+[0.626s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/cmake_modules/share/cmake_modules/cmake/Modules/FindUUID.cmake
+[0.633s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/cmake_modules/share/cmake_modules/cmake/Modules/FindXenomai.cmake
+[0.646s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/cmake_modules/share/ament_index/resource_index/package_run_dependencies/cmake_modules
+[0.655s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/cmake_modules/share/ament_index/resource_index/parent_prefix_path/cmake_modules
+[0.668s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/cmake_modules/share/cmake_modules/environment/ament_prefix_path.sh
+[0.678s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/cmake_modules/share/cmake_modules/environment/ament_prefix_path.dsv
+[0.690s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/cmake_modules/share/cmake_modules/environment/path.sh
+[0.700s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/cmake_modules/share/cmake_modules/environment/path.dsv
+[0.709s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/cmake_modules/share/cmake_modules/local_setup.bash
+[0.723s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/cmake_modules/share/cmake_modules/local_setup.sh
+[0.731s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/cmake_modules/share/cmake_modules/local_setup.zsh
+[0.741s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/cmake_modules/share/cmake_modules/local_setup.dsv
+[0.746s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/cmake_modules/share/cmake_modules/package.dsv
+[0.747s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/cmake_modules/share/ament_index/resource_index/packages/cmake_modules
+[0.752s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/cmake_modules/share/cmake_modules/cmake/cmake_modules-extras.cmake
+[0.761s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/cmake_modules/share/cmake_modules/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.764s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/cmake_modules/share/cmake_modules/cmake/cmake_modulesConfig.cmake
+[0.769s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/cmake_modules/share/cmake_modules/cmake/cmake_modulesConfig-version.cmake
+[0.776s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/cmake_modules/share/cmake_modules/package.xml
+[0.779s] Invoked command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/cmake_modules' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/cmake_modules

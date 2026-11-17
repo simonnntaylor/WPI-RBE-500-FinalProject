@@ -1,0 +1,37 @@
+[ 14%] Building CXX object CMakeFiles/robotis_manipulator.dir/src/robotis_manipulator/robotis_manipulator.cpp.o
+[ 28%] Building CXX object CMakeFiles/robotis_manipulator.dir/src/robotis_manipulator/robotis_manipulator_common.cpp.o
+[ 42%] Building CXX object CMakeFiles/robotis_manipulator.dir/src/robotis_manipulator/robotis_manipulator_log.cpp.o
+[ 57%] Building CXX object CMakeFiles/robotis_manipulator.dir/src/robotis_manipulator/robotis_manipulator_trajectory_generator.cpp.o
+[ 71%] Building CXX object CMakeFiles/robotis_manipulator.dir/src/robotis_manipulator/robotis_manipulator_manager.cpp.o
+[ 85%] Building CXX object CMakeFiles/robotis_manipulator.dir/src/robotis_manipulator/robotis_manipulator_math.cpp.o
+[100%] Linking CXX shared library librobotis_manipulator.so
+[100%] Built target robotis_manipulator
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/robotis_manipulator/lib/librobotis_manipulator.so
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/robotis_manipulator/include//robotis_manipulator/robotis_manipulator.h
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/robotis_manipulator/include//robotis_manipulator/robotis_manipulator_common.h
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/robotis_manipulator/include//robotis_manipulator/robotis_manipulator_log.h
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/robotis_manipulator/include//robotis_manipulator/robotis_manipulator_manager.h
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/robotis_manipulator/include//robotis_manipulator/robotis_manipulator_math.h
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/robotis_manipulator/include//robotis_manipulator/robotis_manipulator_trajectory_generator.h
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/robotis_manipulator/share/robotis_manipulator/environment/library_path.sh
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/robotis_manipulator/share/robotis_manipulator/environment/library_path.dsv
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/robotis_manipulator/share/ament_index/resource_index/package_run_dependencies/robotis_manipulator
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/robotis_manipulator/share/ament_index/resource_index/parent_prefix_path/robotis_manipulator
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/robotis_manipulator/share/robotis_manipulator/environment/ament_prefix_path.sh
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/robotis_manipulator/share/robotis_manipulator/environment/ament_prefix_path.dsv
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/robotis_manipulator/share/robotis_manipulator/environment/path.sh
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/robotis_manipulator/share/robotis_manipulator/environment/path.dsv
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/robotis_manipulator/share/robotis_manipulator/local_setup.bash
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/robotis_manipulator/share/robotis_manipulator/local_setup.sh
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/robotis_manipulator/share/robotis_manipulator/local_setup.zsh
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/robotis_manipulator/share/robotis_manipulator/local_setup.dsv
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/robotis_manipulator/share/robotis_manipulator/package.dsv
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/robotis_manipulator/share/ament_index/resource_index/packages/robotis_manipulator
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/robotis_manipulator/share/robotis_manipulator/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/robotis_manipulator/share/robotis_manipulator/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/robotis_manipulator/share/robotis_manipulator/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/robotis_manipulator/share/robotis_manipulator/cmake/robotis_manipulatorConfig.cmake
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/robotis_manipulator/share/robotis_manipulator/cmake/robotis_manipulatorConfig-version.cmake
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/robotis_manipulator/share/robotis_manipulator/package.xml

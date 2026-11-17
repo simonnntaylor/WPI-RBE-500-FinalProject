@@ -1,0 +1,457 @@
+[0.086s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'rbe500_interfaces', 'rbe500_example_py']
+[0.086s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['rbe500_interfaces', 'rbe500_example_py'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xe29ca1c46570>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xe29ca1be8440>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xe29ca1be8440>>, mixin_verb=('build',))
+[0.111s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.111s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.111s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.111s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.111s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.111s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.111s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(LAB_PDFs) by extensions ['ignore', 'ignore_ament_install']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(LAB_PDFs) by extension 'ignore'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(LAB_PDFs) by extension 'ignore_ament_install'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(LAB_PDFs) by extensions ['colcon_pkg']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(LAB_PDFs) by extension 'colcon_pkg'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(LAB_PDFs) by extensions ['colcon_meta']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(LAB_PDFs) by extension 'colcon_meta'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(LAB_PDFs) by extensions ['ros']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(LAB_PDFs) by extension 'ros'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(LAB_PDFs) by extensions ['cmake', 'python']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(LAB_PDFs) by extension 'cmake'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(LAB_PDFs) by extension 'python'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(LAB_PDFs) by extensions ['python_setup_py']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(LAB_PDFs) by extension 'python_setup_py'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2) by extensions ['ignore', 'ignore_ament_install']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2) by extension 'ignore'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2) by extension 'ignore_ament_install'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2) by extensions ['colcon_pkg']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2) by extension 'colcon_pkg'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2) by extensions ['colcon_meta']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2) by extension 'colcon_meta'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2) by extensions ['ros']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2) by extension 'ros'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2) by extensions ['cmake', 'python']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2) by extension 'cmake'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2) by extension 'python'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2) by extensions ['python_setup_py']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2) by extension 'python_setup_py'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/DynamixelSDK) by extensions ['ignore', 'ignore_ament_install']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/DynamixelSDK) by extension 'ignore'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/DynamixelSDK) by extension 'ignore_ament_install'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/DynamixelSDK) by extensions ['colcon_pkg']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/DynamixelSDK) by extension 'colcon_pkg'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/DynamixelSDK) by extensions ['colcon_meta']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/DynamixelSDK) by extension 'colcon_meta'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/DynamixelSDK) by extensions ['ros']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/DynamixelSDK) by extension 'ros'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/DynamixelSDK) by extensions ['cmake', 'python']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/DynamixelSDK) by extension 'cmake'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/DynamixelSDK) by extension 'python'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/DynamixelSDK) by extensions ['python_setup_py']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/DynamixelSDK) by extension 'python_setup_py'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/DynamixelSDK/dynamixel_sdk) by extensions ['ignore', 'ignore_ament_install']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/DynamixelSDK/dynamixel_sdk) by extension 'ignore'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/DynamixelSDK/dynamixel_sdk) by extension 'ignore_ament_install'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/DynamixelSDK/dynamixel_sdk) by extensions ['colcon_pkg']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/DynamixelSDK/dynamixel_sdk) by extension 'colcon_pkg'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/DynamixelSDK/dynamixel_sdk) by extensions ['colcon_meta']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/DynamixelSDK/dynamixel_sdk) by extension 'colcon_meta'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/DynamixelSDK/dynamixel_sdk) by extensions ['ros']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/DynamixelSDK/dynamixel_sdk) by extension 'ros'
+[0.129s] DEBUG:colcon.colcon_core.package_identification:Package 'src/OpenManipulatorX_ROS2/DynamixelSDK/dynamixel_sdk' with type 'ros.ament_cmake' and name 'dynamixel_sdk'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ignore'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ignore_ament_install'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['colcon_pkg']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'colcon_pkg'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['colcon_meta']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'colcon_meta'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['ros']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ros'
+[0.129s] DEBUG:colcon.colcon_core.package_identification:Package 'src/OpenManipulatorX_ROS2/DynamixelSDK/dynamixel_sdk_custom_interfaces' with type 'ros.ament_cmake' and name 'dynamixel_sdk_custom_interfaces'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/DynamixelSDK/dynamixel_sdk_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/DynamixelSDK/dynamixel_sdk_examples) by extension 'ignore'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/DynamixelSDK/dynamixel_sdk_examples) by extension 'ignore_ament_install'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/DynamixelSDK/dynamixel_sdk_examples) by extensions ['colcon_pkg']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/DynamixelSDK/dynamixel_sdk_examples) by extension 'colcon_pkg'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/DynamixelSDK/dynamixel_sdk_examples) by extensions ['colcon_meta']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/DynamixelSDK/dynamixel_sdk_examples) by extension 'colcon_meta'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/DynamixelSDK/dynamixel_sdk_examples) by extensions ['ros']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/DynamixelSDK/dynamixel_sdk_examples) by extension 'ros'
+[0.130s] DEBUG:colcon.colcon_core.package_identification:Package 'src/OpenManipulatorX_ROS2/DynamixelSDK/dynamixel_sdk_examples' with type 'ros.ament_cmake' and name 'dynamixel_sdk_examples'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/dynamixel-workbench) by extensions ['ignore', 'ignore_ament_install']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/dynamixel-workbench) by extension 'ignore'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/dynamixel-workbench) by extension 'ignore_ament_install'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/dynamixel-workbench) by extensions ['colcon_pkg']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/dynamixel-workbench) by extension 'colcon_pkg'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/dynamixel-workbench) by extensions ['colcon_meta']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/dynamixel-workbench) by extension 'colcon_meta'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/dynamixel-workbench) by extensions ['ros']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/dynamixel-workbench) by extension 'ros'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/dynamixel-workbench) by extensions ['cmake', 'python']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/dynamixel-workbench) by extension 'cmake'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/dynamixel-workbench) by extension 'python'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/dynamixel-workbench) by extensions ['python_setup_py']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/dynamixel-workbench) by extension 'python_setup_py'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/dynamixel-workbench/dynamixel_workbench) by extensions ['ignore', 'ignore_ament_install']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/dynamixel-workbench/dynamixel_workbench) by extension 'ignore'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/dynamixel-workbench/dynamixel_workbench) by extension 'ignore_ament_install'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/dynamixel-workbench/dynamixel_workbench) by extensions ['colcon_pkg']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/dynamixel-workbench/dynamixel_workbench) by extension 'colcon_pkg'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/dynamixel-workbench/dynamixel_workbench) by extensions ['colcon_meta']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/dynamixel-workbench/dynamixel_workbench) by extension 'colcon_meta'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/dynamixel-workbench/dynamixel_workbench) by extensions ['ros']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/dynamixel-workbench/dynamixel_workbench) by extension 'ros'
+[0.130s] DEBUG:colcon.colcon_core.package_identification:Package 'src/OpenManipulatorX_ROS2/dynamixel-workbench/dynamixel_workbench' with type 'ros.ament_cmake' and name 'dynamixel_workbench'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/dynamixel-workbench/dynamixel_workbench_toolbox) by extensions ['ignore', 'ignore_ament_install']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/dynamixel-workbench/dynamixel_workbench_toolbox) by extension 'ignore'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/dynamixel-workbench/dynamixel_workbench_toolbox) by extension 'ignore_ament_install'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/dynamixel-workbench/dynamixel_workbench_toolbox) by extensions ['colcon_pkg']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/dynamixel-workbench/dynamixel_workbench_toolbox) by extension 'colcon_pkg'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/dynamixel-workbench/dynamixel_workbench_toolbox) by extensions ['colcon_meta']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/dynamixel-workbench/dynamixel_workbench_toolbox) by extension 'colcon_meta'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/dynamixel-workbench/dynamixel_workbench_toolbox) by extensions ['ros']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/dynamixel-workbench/dynamixel_workbench_toolbox) by extension 'ros'
+[0.131s] DEBUG:colcon.colcon_core.package_identification:Package 'src/OpenManipulatorX_ROS2/dynamixel-workbench/dynamixel_workbench_toolbox' with type 'ros.ament_cmake' and name 'dynamixel_workbench_toolbox'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator) by extensions ['ignore', 'ignore_ament_install']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator) by extension 'ignore'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator) by extension 'ignore_ament_install'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator) by extensions ['colcon_pkg']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator) by extension 'colcon_pkg'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator) by extensions ['colcon_meta']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator) by extension 'colcon_meta'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator) by extensions ['ros']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator) by extension 'ros'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator) by extensions ['cmake', 'python']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator) by extension 'cmake'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator) by extension 'python'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator) by extensions ['python_setup_py']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator) by extension 'python_setup_py'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator) by extensions ['ignore', 'ignore_ament_install']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator) by extension 'ignore'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator) by extension 'ignore_ament_install'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator) by extensions ['colcon_pkg']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator) by extension 'colcon_pkg'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator) by extensions ['colcon_meta']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator) by extension 'colcon_meta'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator) by extensions ['ros']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator) by extension 'ros'
+[0.132s] DEBUG:colcon.colcon_core.package_identification:Package 'src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator' with type 'ros.ament_cmake' and name 'open_manipulator'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_controller) by extension 'ignore'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_controller) by extension 'ignore_ament_install'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_controller) by extensions ['colcon_pkg']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_controller) by extension 'colcon_pkg'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_controller) by extensions ['colcon_meta']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_controller) by extension 'colcon_meta'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_controller) by extensions ['ros']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_controller) by extension 'ros'
+[0.132s] DEBUG:colcon.colcon_core.package_identification:Package 'src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_controller' with type 'ros.ament_cmake' and name 'open_manipulator_x_controller'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_description) by extensions ['ignore', 'ignore_ament_install']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_description) by extension 'ignore'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_description) by extension 'ignore_ament_install'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_description) by extensions ['colcon_pkg']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_description) by extension 'colcon_pkg'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_description) by extensions ['colcon_meta']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_description) by extension 'colcon_meta'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_description) by extensions ['ros']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_description) by extension 'ros'
+[0.133s] DEBUG:colcon.colcon_core.package_identification:Package 'src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_description' with type 'ros.ament_cmake' and name 'open_manipulator_x_description'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs) by extension 'ignore_ament_install'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs) by extensions ['colcon_pkg']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs) by extension 'colcon_pkg'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs) by extensions ['colcon_meta']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs) by extension 'colcon_meta'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs) by extensions ['ros']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs) by extension 'ros'
+[0.133s] DEBUG:colcon.colcon_core.package_identification:Package 'src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs' with type 'ros.ament_cmake' and name 'open_manipulator_x_libs'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator_dependencies) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator_dependencies) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator_dependencies) by extension 'ignore_ament_install'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator_dependencies) by extensions ['colcon_pkg']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator_dependencies) by extension 'colcon_pkg'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator_dependencies) by extensions ['colcon_meta']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator_dependencies) by extension 'colcon_meta'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator_dependencies) by extensions ['ros']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator_dependencies) by extension 'ros'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator_dependencies) by extensions ['cmake', 'python']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator_dependencies) by extension 'cmake'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator_dependencies) by extension 'python'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator_dependencies) by extensions ['python_setup_py']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator_dependencies) by extension 'python_setup_py'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator_dependencies/cmake_modules) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator_dependencies/cmake_modules) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator_dependencies/cmake_modules) by extension 'ignore_ament_install'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator_dependencies/cmake_modules) by extensions ['colcon_pkg']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator_dependencies/cmake_modules) by extension 'colcon_pkg'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator_dependencies/cmake_modules) by extensions ['colcon_meta']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator_dependencies/cmake_modules) by extension 'colcon_meta'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator_dependencies/cmake_modules) by extensions ['ros']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator_dependencies/cmake_modules) by extension 'ros'
+[0.134s] DEBUG:colcon.colcon_core.package_identification:Package 'src/OpenManipulatorX_ROS2/open_manipulator_dependencies/cmake_modules' with type 'ros.ament_cmake' and name 'cmake_modules'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator_msgs) by extension 'ignore'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator_msgs) by extension 'ignore_ament_install'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator_msgs) by extensions ['colcon_pkg']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator_msgs) by extension 'colcon_pkg'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator_msgs) by extensions ['colcon_meta']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator_msgs) by extension 'colcon_meta'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator_msgs) by extensions ['ros']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/open_manipulator_msgs) by extension 'ros'
+[0.134s] DEBUG:colcon.colcon_core.package_identification:Package 'src/OpenManipulatorX_ROS2/open_manipulator_msgs' with type 'ros.ament_cmake' and name 'open_manipulator_msgs'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/rbe500-example) by extensions ['ignore', 'ignore_ament_install']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/rbe500-example) by extension 'ignore'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/rbe500-example) by extension 'ignore_ament_install'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/rbe500-example) by extensions ['colcon_pkg']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/rbe500-example) by extension 'colcon_pkg'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/rbe500-example) by extensions ['colcon_meta']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/rbe500-example) by extension 'colcon_meta'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/rbe500-example) by extensions ['ros']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/rbe500-example) by extension 'ros'
+[0.135s] DEBUG:colcon.colcon_core.package_identification:Package 'src/OpenManipulatorX_ROS2/rbe500-example' with type 'ros.ament_cmake' and name 'rbe500-example'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/rbe500_example_py) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/rbe500_example_py) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/rbe500_example_py) by extension 'ignore_ament_install'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/rbe500_example_py) by extensions ['colcon_pkg']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/rbe500_example_py) by extension 'colcon_pkg'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/rbe500_example_py) by extensions ['colcon_meta']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/rbe500_example_py) by extension 'colcon_meta'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/rbe500_example_py) by extensions ['ros']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/rbe500_example_py) by extension 'ros'
+[0.135s] DEBUG:colcon.colcon_core.package_identification:Package 'src/OpenManipulatorX_ROS2/rbe500_example_py' with type 'ros.ament_python' and name 'rbe500_example_py'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/rbe500_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/rbe500_interfaces) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/rbe500_interfaces) by extension 'ignore_ament_install'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/rbe500_interfaces) by extensions ['colcon_pkg']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/rbe500_interfaces) by extension 'colcon_pkg'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/rbe500_interfaces) by extensions ['colcon_meta']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/rbe500_interfaces) by extension 'colcon_meta'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/rbe500_interfaces) by extensions ['ros']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/rbe500_interfaces) by extension 'ros'
+[0.135s] DEBUG:colcon.colcon_core.package_identification:Package 'src/OpenManipulatorX_ROS2/rbe500_interfaces' with type 'ros.ament_cmake' and name 'rbe500_interfaces'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/robotis_manipulator) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/robotis_manipulator) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/robotis_manipulator) by extension 'ignore_ament_install'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/robotis_manipulator) by extensions ['colcon_pkg']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/robotis_manipulator) by extension 'colcon_pkg'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/robotis_manipulator) by extensions ['colcon_meta']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/robotis_manipulator) by extension 'colcon_meta'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/robotis_manipulator) by extensions ['ros']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/OpenManipulatorX_ROS2/robotis_manipulator) by extension 'ros'
+[0.136s] DEBUG:colcon.colcon_core.package_identification:Package 'src/OpenManipulatorX_ROS2/robotis_manipulator' with type 'ros.ament_cmake' and name 'robotis_manipulator'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/omx_kinematics) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/omx_kinematics) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/omx_kinematics) by extension 'ignore_ament_install'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/omx_kinematics) by extensions ['colcon_pkg']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/omx_kinematics) by extension 'colcon_pkg'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/omx_kinematics) by extensions ['colcon_meta']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/omx_kinematics) by extension 'colcon_meta'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/omx_kinematics) by extensions ['ros']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/omx_kinematics) by extension 'ros'
+[0.136s] DEBUG:colcon.colcon_core.package_identification:Package 'src/omx_kinematics' with type 'ros.ament_python' and name 'omx_kinematics'
+[0.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.137s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.137s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.137s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.137s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.148s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cmake_modules' in 'src/OpenManipulatorX_ROS2/open_manipulator_dependencies/cmake_modules'
+[0.148s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dynamixel_sdk' in 'src/OpenManipulatorX_ROS2/DynamixelSDK/dynamixel_sdk'
+[0.148s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dynamixel_sdk_custom_interfaces' in 'src/OpenManipulatorX_ROS2/DynamixelSDK/dynamixel_sdk_custom_interfaces'
+[0.148s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'omx_kinematics' in 'src/omx_kinematics'
+[0.148s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'open_manipulator_msgs' in 'src/OpenManipulatorX_ROS2/open_manipulator_msgs'
+[0.148s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'open_manipulator_x_description' in 'src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_description'
+[0.148s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dynamixel_sdk_examples' in 'src/OpenManipulatorX_ROS2/DynamixelSDK/dynamixel_sdk_examples'
+[0.148s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dynamixel_workbench_toolbox' in 'src/OpenManipulatorX_ROS2/dynamixel-workbench/dynamixel_workbench_toolbox'
+[0.148s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rbe500-example' in 'src/OpenManipulatorX_ROS2/rbe500-example'
+[0.148s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'robotis_manipulator' in 'src/OpenManipulatorX_ROS2/robotis_manipulator'
+[0.148s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dynamixel_workbench' in 'src/OpenManipulatorX_ROS2/dynamixel-workbench/dynamixel_workbench'
+[0.148s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'open_manipulator_x_libs' in 'src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs'
+[0.148s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'open_manipulator_x_controller' in 'src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_controller'
+[0.148s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'open_manipulator' in 'src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator'
+[0.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.150s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/simon-taylor/ros2_ws/install
+[0.150s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 430 installed packages in /opt/ros/jazzy
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'rbe500_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'rbe500_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'rbe500_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'rbe500_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'rbe500_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'rbe500_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'rbe500_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'rbe500_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'rbe500_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.175s] DEBUG:colcon.colcon_core.verb:Building package 'rbe500_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces', 'merge_install': False, 'path': '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/rbe500_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'rbe500_example_py' build argument 'cmake_args' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'rbe500_example_py' build argument 'cmake_target' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'rbe500_example_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'rbe500_example_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'rbe500_example_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'rbe500_example_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'rbe500_example_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'rbe500_example_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'rbe500_example_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.176s] DEBUG:colcon.colcon_core.verb:Building package 'rbe500_example_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py', 'merge_install': False, 'path': '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/rbe500_example_py', 'symlink_install': True, 'test_result_base': None}
+[0.176s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.176s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.176s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/rbe500_interfaces' with build type 'ament_cmake'
+[0.176s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/rbe500_interfaces'
+[0.178s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.178s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.178s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.182s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/rbe500_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces
+[1.832s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/rbe500_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces
+[1.832s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_interfaces -- -j4 -l4
+[3.572s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_interfaces -- -j4 -l4
+[3.576s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_interfaces
+[3.857s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rbe500_interfaces)
+[3.857s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_interfaces
+[3.860s] Level 1:colcon.colcon_core.environment:checking '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces' for CMake module files
+[3.860s] Level 1:colcon.colcon_core.environment:checking '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces' for CMake config files
+[3.861s] Level 1:colcon.colcon_core.shell:create_environment_hook('rbe500_interfaces', 'cmake_prefix_path')
+[3.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/hook/cmake_prefix_path.ps1'
+[3.861s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/hook/cmake_prefix_path.dsv'
+[3.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/hook/cmake_prefix_path.sh'
+[3.862s] Level 1:colcon.colcon_core.environment:checking '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib'
+[3.862s] Level 1:colcon.colcon_core.shell:create_environment_hook('rbe500_interfaces', 'ld_library_path_lib')
+[3.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/hook/ld_library_path_lib.ps1'
+[3.868s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/hook/ld_library_path_lib.dsv'
+[3.868s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/hook/ld_library_path_lib.sh'
+[3.868s] Level 1:colcon.colcon_core.environment:checking '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/bin'
+[3.868s] Level 1:colcon.colcon_core.environment:checking '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib/pkgconfig/rbe500_interfaces.pc'
+[3.869s] Level 1:colcon.colcon_core.environment:checking '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib/python3.12/site-packages'
+[3.869s] Level 1:colcon.colcon_core.shell:create_environment_hook('rbe500_interfaces', 'pythonpath')
+[3.869s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/hook/pythonpath.ps1'
+[3.869s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/hook/pythonpath.dsv'
+[3.869s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/hook/pythonpath.sh'
+[3.869s] Level 1:colcon.colcon_core.environment:checking '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/bin'
+[3.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/package.ps1'
+[3.870s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/package.dsv'
+[3.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/package.sh'
+[3.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/package.bash'
+[3.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/package.zsh'
+[3.870s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/colcon-core/packages/rbe500_interfaces)
+[3.871s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rbe500_interfaces)
+[3.871s] Level 1:colcon.colcon_core.environment:checking '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces' for CMake module files
+[3.871s] Level 1:colcon.colcon_core.environment:checking '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces' for CMake config files
+[3.871s] Level 1:colcon.colcon_core.shell:create_environment_hook('rbe500_interfaces', 'cmake_prefix_path')
+[3.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/hook/cmake_prefix_path.ps1'
+[3.871s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/hook/cmake_prefix_path.dsv'
+[3.872s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/hook/cmake_prefix_path.sh'
+[3.872s] Level 1:colcon.colcon_core.environment:checking '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib'
+[3.872s] Level 1:colcon.colcon_core.shell:create_environment_hook('rbe500_interfaces', 'ld_library_path_lib')
+[3.872s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/hook/ld_library_path_lib.ps1'
+[3.872s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/hook/ld_library_path_lib.dsv'
+[3.872s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/hook/ld_library_path_lib.sh'
+[3.872s] Level 1:colcon.colcon_core.environment:checking '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/bin'
+[3.872s] Level 1:colcon.colcon_core.environment:checking '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib/pkgconfig/rbe500_interfaces.pc'
+[3.872s] Level 1:colcon.colcon_core.environment:checking '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib/python3.12/site-packages'
+[3.872s] Level 1:colcon.colcon_core.shell:create_environment_hook('rbe500_interfaces', 'pythonpath')
+[3.872s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/hook/pythonpath.ps1'
+[3.873s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/hook/pythonpath.dsv'
+[3.873s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/hook/pythonpath.sh'
+[3.873s] Level 1:colcon.colcon_core.environment:checking '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/bin'
+[3.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/package.ps1'
+[3.873s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/package.dsv'
+[3.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/package.sh'
+[3.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/package.bash'
+[3.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/rbe500_interfaces/package.zsh'
+[3.874s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/share/colcon-core/packages/rbe500_interfaces)
+[3.874s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/rbe500_example_py' with build type 'ament_python'
+[3.874s] Level 1:colcon.colcon_core.shell:create_environment_hook('rbe500_example_py', 'ament_prefix_path')
+[3.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/share/rbe500_example_py/hook/ament_prefix_path.ps1'
+[3.875s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/share/rbe500_example_py/hook/ament_prefix_path.dsv'
+[3.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/share/rbe500_example_py/hook/ament_prefix_path.sh'
+[3.875s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.875s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.973s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/rbe500_example_py'
+[3.973s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.973s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.323s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: build, bdist_egg, bdist_wheel, init_catalog, build_scripts, bdist, install, bdist_rpm, clean, egg_info, easy_install, check, install_data, setopt, install_lib, install_headers, dist_info, sdist, upload_docs, build_py, extract_messages, rotate, test, editable_wheel, compile_catalog, install_egg_info, saveopts, symlink_data, build_clib, upload, bdist_dumb, update_catalog, alias, build_ext, develop, install_scripts, register
+[4.472s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --optimize, --editable, --no-find-links, --always-unzip, --help, --site-dirs, --dry-run, --zip-ok, --find-links, --user, --no-deps, --prefix, --script-dir, --multi-version, --exclude-scripts, --allow-hosts, --force-installation-into-system-dir, --verbose, --index-url, --upgrade, --build-directory, --install-layout, --always-copy, --no-user-cfg, --version, --egg-path, --install-dir, --record, --local-snapshots-ok, --uninstall, --quiet
+[4.472s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/share/ament_index/resource_index/packages/rbe500_example_py
+[4.472s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/share/rbe500_example_py/package.xml
+[4.472s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/lib/rbe500_example_py/basic_robot_control
+[4.472s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/lib/rbe500_example_py/forward_kinematics
+[4.476s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py': AMENT_PREFIX_PATH=/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces:/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces:/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib:/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/lib/python3.12/site-packages:/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib/python3.12/site-packages:/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py/build --no-deps symlink_data --force
+[4.757s] Level 1:colcon.colcon_core.shell:create_environment_hook('rbe500_example_py', 'pythonpath_develop')
+[4.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py/share/rbe500_example_py/hook/pythonpath_develop.ps1'
+[4.758s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py' returned '0': AMENT_PREFIX_PATH=/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces:/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces:/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib:/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/lib/python3.12/site-packages:/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_interfaces/lib/python3.12/site-packages:/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py/build --no-deps symlink_data --force
+[4.758s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py/share/rbe500_example_py/hook/pythonpath_develop.dsv'
+[4.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py/share/rbe500_example_py/hook/pythonpath_develop.sh'
+[4.758s] Level 1:colcon.colcon_core.environment:checking '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py' for CMake module files
+[4.759s] Level 1:colcon.colcon_core.environment:checking '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py' for CMake config files
+[4.759s] Level 1:colcon.colcon_core.environment:checking '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/lib'
+[4.759s] Level 1:colcon.colcon_core.environment:checking '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/bin'
+[4.759s] Level 1:colcon.colcon_core.environment:checking '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/lib/pkgconfig/rbe500_example_py.pc'
+[4.759s] Level 1:colcon.colcon_core.environment:checking '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/lib/python3.12/site-packages'
+[4.759s] Level 1:colcon.colcon_core.shell:create_environment_hook('rbe500_example_py', 'pythonpath')
+[4.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/share/rbe500_example_py/hook/pythonpath.ps1'
+[4.759s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/share/rbe500_example_py/hook/pythonpath.dsv'
+[4.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/share/rbe500_example_py/hook/pythonpath.sh'
+[4.760s] Level 1:colcon.colcon_core.environment:checking '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/bin'
+[4.760s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rbe500_example_py)
+[4.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/share/rbe500_example_py/package.ps1'
+[4.760s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/share/rbe500_example_py/package.dsv'
+[4.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/share/rbe500_example_py/package.sh'
+[4.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/share/rbe500_example_py/package.bash'
+[4.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/share/rbe500_example_py/package.zsh'
+[4.761s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/share/colcon-core/packages/rbe500_example_py)
+[4.761s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.761s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.761s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.761s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.766s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.766s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.766s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.805s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.805s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/local_setup.ps1'
+[4.806s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/_local_setup_util_ps1.py'
+[4.806s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/setup.ps1'
+[4.808s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/local_setup.sh'
+[4.809s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/_local_setup_util_sh.py'
+[4.809s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/setup.sh'
+[4.811s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/local_setup.bash'
+[4.811s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/setup.bash'
+[4.813s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/local_setup.zsh'
+[4.814s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/setup.zsh'

@@ -1,0 +1,70 @@
+[0.015s] Invoking command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/DynamixelSDK/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk
+[0.090s] -- The C compiler identification is GNU 13.3.0
+[0.154s] -- The CXX compiler identification is GNU 13.3.0
+[0.165s] -- Detecting C compiler ABI info
+[0.224s] -- Detecting C compiler ABI info - done
+[0.228s] -- Check for working C compiler: /usr/bin/ccache - skipped
+[0.229s] -- Detecting C compile features
+[0.229s] -- Detecting C compile features - done
+[0.232s] -- Detecting CXX compiler ABI info
+[0.291s] -- Detecting CXX compiler ABI info - done
+[0.299s] -- Check for working CXX compiler: /usr/bin/ccache - skipped
+[0.299s] -- Detecting CXX compile features
+[0.299s] -- Detecting CXX compile features - done
+[0.303s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.377s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.416s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.497s] -- Configuring done (0.5s)
+[0.498s] -- Generating done (0.0s)
+[0.499s] -- Build files have been written to: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/dynamixel_sdk
+[0.504s] Invoked command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/DynamixelSDK/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk
+[0.505s] Invoking command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/dynamixel_sdk -- -j4 -l4
+[0.531s] [ 10%] Building CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/packet_handler.cpp.o
+[0.537s] [ 20%] Building CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_read.cpp.o
+[0.543s] [ 30%] Building CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol2_packet_handler.cpp.o
+[0.543s] [ 40%] Building CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol1_packet_handler.cpp.o
+[0.718s] [ 50%] Building CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_write.cpp.o
+[0.769s] [ 60%] Building CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_read.cpp.o
+[0.771s] [ 70%] Building CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_write.cpp.o
+[0.858s] [ 80%] Building CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler.cpp.o
+[0.909s] [ 90%] Building CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler_linux.cpp.o
+[1.070s] [100%] Linking CXX shared library libdynamixel_sdk.so
+[1.119s] [100%] Built target dynamixel_sdk
+[1.122s] Invoked command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/dynamixel_sdk -- -j4 -l4
+[1.123s] Invoking command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/dynamixel_sdk
+[1.127s] -- Install configuration: ""
+[1.128s] -- Execute custom install script
+[1.128s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[1.133s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[1.137s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[1.143s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[1.151s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[1.161s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[1.170s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[1.170s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[1.175s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[1.178s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[1.185s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[1.190s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[1.194s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[1.198s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[1.203s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[1.214s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[1.220s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[1.224s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[1.228s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[1.232s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[1.236s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[1.240s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[1.247s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[1.248s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[1.252s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[1.255s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[1.258s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[1.262s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[1.267s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.273s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[1.277s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[1.280s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[1.284s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[1.288s] Invoked command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/dynamixel_sdk

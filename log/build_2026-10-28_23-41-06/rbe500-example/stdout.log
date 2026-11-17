@@ -1,0 +1,59 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/ccache - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/ccache - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found example_interfaces: 0.12.1 (/opt/ros/jazzy/share/example_interfaces/cmake)
+-- Found open_manipulator_msgs: 2.2.0 (/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake)
+-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/rbe500-example/include>;/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/rbe500-example/open_manipulator_msgs/srv
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500-example
+[ 50%] Building CXX object CMakeFiles/basic_robot_control.dir/src/basic_robot_control.cpp.o
+[100%] Linking CXX executable basic_robot_control
+[100%] Built target basic_robot_control
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500-example/lib/rbe500-example/basic_robot_control
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500-example/share/ament_index/resource_index/package_run_dependencies/rbe500-example
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500-example/share/ament_index/resource_index/parent_prefix_path/rbe500-example
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500-example/share/rbe500-example/environment/ament_prefix_path.sh
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500-example/share/rbe500-example/environment/ament_prefix_path.dsv
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500-example/share/rbe500-example/environment/path.sh
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500-example/share/rbe500-example/environment/path.dsv
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500-example/share/rbe500-example/local_setup.bash
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500-example/share/rbe500-example/local_setup.sh
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500-example/share/rbe500-example/local_setup.zsh
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500-example/share/rbe500-example/local_setup.dsv
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500-example/share/rbe500-example/package.dsv
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500-example/share/ament_index/resource_index/packages/rbe500-example
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500-example/share/rbe500-example/cmake/rbe500-exampleConfig.cmake
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500-example/share/rbe500-example/cmake/rbe500-exampleConfig-version.cmake
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500-example/share/rbe500-example/package.xml

@@ -1,0 +1,1 @@
+/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/dynamixel_sdk_custom_interfaces/rosidl_generator_rs/dynamixel_sdk_custom_interfaces/rust/src/lib.rs

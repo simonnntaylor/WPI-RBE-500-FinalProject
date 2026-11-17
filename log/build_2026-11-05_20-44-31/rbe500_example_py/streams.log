@@ -1,0 +1,40 @@
+[0.467s] Invoking command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py/build
+[0.595s] running develop
+[0.687s] Removing /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/lib/python3.12/site-packages/rbe500-example-py.egg-link (link to .)
+[0.701s] Invoked command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py/build
+[0.701s] Invoking command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/rbe500_example_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/rbe500_example_py build --build-base /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py/build install --record /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py/install.log --install-scripts $base/lib/rbe500_example_py --single-version-externally-managed install_data --force
+[0.814s] running egg_info
+[0.822s] writing ../../../build/rbe500_example_py/rbe500_example_py.egg-info/PKG-INFO
+[0.823s] writing dependency_links to ../../../build/rbe500_example_py/rbe500_example_py.egg-info/dependency_links.txt
+[0.823s] writing entry points to ../../../build/rbe500_example_py/rbe500_example_py.egg-info/entry_points.txt
+[0.823s] writing requirements to ../../../build/rbe500_example_py/rbe500_example_py.egg-info/requires.txt
+[0.823s] writing top-level names to ../../../build/rbe500_example_py/rbe500_example_py.egg-info/top_level.txt
+[0.839s] reading manifest file '../../../build/rbe500_example_py/rbe500_example_py.egg-info/SOURCES.txt'
+[0.840s] writing manifest file '../../../build/rbe500_example_py/rbe500_example_py.egg-info/SOURCES.txt'
+[0.840s] running build
+[0.840s] running build_py
+[0.840s] creating /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py/build
+[0.840s] creating /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py/build/lib
+[0.840s] creating /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py/build/lib/rbe500_example_py
+[0.840s] copying rbe500_example_py/basic_robot_control.py -> /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py/build/lib/rbe500_example_py
+[0.840s] copying rbe500_example_py/forward_kinematics.py -> /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py/build/lib/rbe500_example_py
+[0.840s] copying rbe500_example_py/__init__.py -> /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py/build/lib/rbe500_example_py
+[0.840s] running install
+[0.843s] running install_lib
+[0.851s] creating /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/lib/python3.12/site-packages/rbe500_example_py
+[0.851s] copying /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py/build/lib/rbe500_example_py/basic_robot_control.py -> /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/lib/python3.12/site-packages/rbe500_example_py
+[0.851s] copying /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py/build/lib/rbe500_example_py/forward_kinematics.py -> /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/lib/python3.12/site-packages/rbe500_example_py
+[0.851s] copying /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py/build/lib/rbe500_example_py/__init__.py -> /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/lib/python3.12/site-packages/rbe500_example_py
+[0.852s] byte-compiling /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/lib/python3.12/site-packages/rbe500_example_py/basic_robot_control.py to basic_robot_control.cpython-312.pyc
+[0.852s] byte-compiling /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/lib/python3.12/site-packages/rbe500_example_py/forward_kinematics.py to forward_kinematics.cpython-312.pyc
+[0.852s] byte-compiling /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/lib/python3.12/site-packages/rbe500_example_py/__init__.py to __init__.cpython-312.pyc
+[0.852s] running install_data
+[0.853s] copying resource/rbe500_example_py -> /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/share/ament_index/resource_index/packages
+[0.853s] copying package.xml -> /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/share/rbe500_example_py
+[0.853s] running install_egg_info
+[0.862s] Copying ../../../build/rbe500_example_py/rbe500_example_py.egg-info to /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/lib/python3.12/site-packages/rbe500_example_py-0.0.0-py3.12.egg-info
+[0.863s] running install_scripts
+[0.920s] Installing basic_robot_control script to /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/lib/rbe500_example_py
+[0.921s] Installing forward_kinematics script to /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/lib/rbe500_example_py
+[0.921s] writing list of installed files to '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py/install.log'
+[0.933s] Invoked command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/rbe500_example_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/rbe500_example_py build --build-base /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py/build install --record /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py/install.log --install-scripts $base/lib/rbe500_example_py --single-version-externally-managed install_data --force

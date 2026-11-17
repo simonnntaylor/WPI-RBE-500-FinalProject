@@ -1,0 +1,17 @@
+[0.667s] Invoking command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/omx_kinematics': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/omx_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/omx_kinematics/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/omx_kinematics/build --no-deps symlink_data
+[0.943s] running develop
+[1.033s] running egg_info
+[1.041s] writing omx_kinematics.egg-info/PKG-INFO
+[1.041s] writing dependency_links to omx_kinematics.egg-info/dependency_links.txt
+[1.041s] writing entry points to omx_kinematics.egg-info/entry_points.txt
+[1.041s] writing requirements to omx_kinematics.egg-info/requires.txt
+[1.041s] writing top-level names to omx_kinematics.egg-info/top_level.txt
+[1.058s] reading manifest file 'omx_kinematics.egg-info/SOURCES.txt'
+[1.059s] writing manifest file 'omx_kinematics.egg-info/SOURCES.txt'
+[1.068s] running build_ext
+[1.068s] Creating /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/omx_kinematics/lib/python3.12/site-packages/omx-kinematics.egg-link (link to .)
+[1.068s] Installing forward_kinematics script to /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/omx_kinematics/lib/omx_kinematics
+[1.068s] 
+[1.068s] Installed /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/omx_kinematics
+[1.068s] running symlink_data
+[1.088s] Invoked command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/omx_kinematics' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/omx_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/omx_kinematics/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/omx_kinematics/build --no-deps symlink_data

@@ -1,0 +1,36 @@
+running develop
+Removing /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/lib/python3.12/site-packages/rbe500-example-py.egg-link (link to .)
+running egg_info
+writing ../../../build/rbe500_example_py/rbe500_example_py.egg-info/PKG-INFO
+writing dependency_links to ../../../build/rbe500_example_py/rbe500_example_py.egg-info/dependency_links.txt
+writing entry points to ../../../build/rbe500_example_py/rbe500_example_py.egg-info/entry_points.txt
+writing requirements to ../../../build/rbe500_example_py/rbe500_example_py.egg-info/requires.txt
+writing top-level names to ../../../build/rbe500_example_py/rbe500_example_py.egg-info/top_level.txt
+reading manifest file '../../../build/rbe500_example_py/rbe500_example_py.egg-info/SOURCES.txt'
+writing manifest file '../../../build/rbe500_example_py/rbe500_example_py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py/build
+creating /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py/build/lib
+creating /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py/build/lib/rbe500_example_py
+copying rbe500_example_py/basic_robot_control.py -> /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py/build/lib/rbe500_example_py
+copying rbe500_example_py/forward_kinematics.py -> /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py/build/lib/rbe500_example_py
+copying rbe500_example_py/__init__.py -> /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py/build/lib/rbe500_example_py
+running install
+running install_lib
+creating /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/lib/python3.12/site-packages/rbe500_example_py
+copying /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py/build/lib/rbe500_example_py/basic_robot_control.py -> /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/lib/python3.12/site-packages/rbe500_example_py
+copying /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py/build/lib/rbe500_example_py/forward_kinematics.py -> /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/lib/python3.12/site-packages/rbe500_example_py
+copying /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py/build/lib/rbe500_example_py/__init__.py -> /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/lib/python3.12/site-packages/rbe500_example_py
+byte-compiling /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/lib/python3.12/site-packages/rbe500_example_py/basic_robot_control.py to basic_robot_control.cpython-312.pyc
+byte-compiling /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/lib/python3.12/site-packages/rbe500_example_py/forward_kinematics.py to forward_kinematics.cpython-312.pyc
+byte-compiling /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/lib/python3.12/site-packages/rbe500_example_py/__init__.py to __init__.cpython-312.pyc
+running install_data
+copying resource/rbe500_example_py -> /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/share/rbe500_example_py
+running install_egg_info
+Copying ../../../build/rbe500_example_py/rbe500_example_py.egg-info to /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/lib/python3.12/site-packages/rbe500_example_py-0.0.0-py3.12.egg-info
+running install_scripts
+Installing basic_robot_control script to /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/lib/rbe500_example_py
+Installing forward_kinematics script to /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/lib/rbe500_example_py
+writing list of installed files to '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py/install.log'

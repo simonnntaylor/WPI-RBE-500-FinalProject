@@ -1,0 +1,296 @@
+[0.008s] Invoking command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/open_manipulator_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/open_manipulator_msgs -- -j4 -l4
+[0.039s] [  1%] Built target open_manipulator_msgs__rs
+[0.045s] [  2%] Built target open_manipulator_msgs__rosidl_generator_type_description
+[0.047s] [  2%] Built target ament_cmake_python_symlink_open_manipulator_msgs
+[0.081s] [  2%] Built target open_manipulator_msgs__cpp
+[0.081s] [ 27%] Built target open_manipulator_msgs__rosidl_generator_c
+[0.106s] [ 37%] Built target open_manipulator_msgs__rosidl_typesupport_introspection_c
+[0.111s] [ 46%] Built target open_manipulator_msgs__rosidl_typesupport_fastrtps_cpp
+[0.119s] [ 56%] Built target open_manipulator_msgs__rosidl_typesupport_fastrtps_c
+[0.133s] [ 66%] Built target open_manipulator_msgs__rosidl_typesupport_c
+[0.143s] [ 75%] Built target open_manipulator_msgs__rosidl_typesupport_introspection_cpp
+[0.162s] [ 84%] Built target open_manipulator_msgs__rosidl_typesupport_cpp
+[0.187s] [ 84%] Built target open_manipulator_msgs
+[0.221s] [ 85%] Built target open_manipulator_msgs__py
+[0.236s] running egg_info
+[0.249s] [ 94%] Built target open_manipulator_msgs__rosidl_generator_py
+[0.254s] writing open_manipulator_msgs.egg-info/PKG-INFO
+[0.254s] writing dependency_links to open_manipulator_msgs.egg-info/dependency_links.txt
+[0.254s] writing top-level names to open_manipulator_msgs.egg-info/top_level.txt
+[0.277s] [ 96%] Built target open_manipulator_msgs_s__rosidl_typesupport_introspection_c
+[0.282s] [ 98%] Built target open_manipulator_msgs_s__rosidl_typesupport_fastrtps_c
+[0.285s] [100%] Built target open_manipulator_msgs_s__rosidl_typesupport_c
+[0.301s] reading manifest file 'open_manipulator_msgs.egg-info/SOURCES.txt'
+[0.303s] writing manifest file 'open_manipulator_msgs.egg-info/SOURCES.txt'
+[0.464s] [100%] Built target ament_cmake_python_build_open_manipulator_msgs_egg
+[0.468s] Invoked command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/open_manipulator_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/open_manipulator_msgs -- -j4 -l4
+[0.468s] Invoking command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/open_manipulator_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/open_manipulator_msgs
+[0.478s] -- Install configuration: ""
+[0.478s] -- Execute custom install script
+[0.478s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/ament_index/resource_index/rosidl_interfaces/open_manipulator_msgs
+[0.490s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/msg/JointPosition.json
+[0.499s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/msg/KinematicsPose.json
+[0.513s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/msg/OpenManipulatorState.json
+[0.523s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/srv/GetJointPosition.json
+[0.533s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/srv/GetKinematicsPose.json
+[0.548s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/srv/SetJointPosition.json
+[0.550s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/srv/SetKinematicsPose.json
+[0.557s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/srv/SetDrawingTrajectory.json
+[0.564s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/srv/SetActuatorState.json
+[0.573s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/joint_position__functions.h
+[0.580s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/joint_position__struct.h
+[0.585s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/joint_position__type_support.h
+[0.589s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/kinematics_pose__functions.h
+[0.593s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/kinematics_pose__struct.h
+[0.599s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/kinematics_pose__type_support.h
+[0.601s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/open_manipulator_state__functions.h
+[0.607s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/open_manipulator_state__struct.h
+[0.612s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/open_manipulator_state__type_support.h
+[0.616s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/joint_position.h
+[0.620s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/kinematics_pose.h
+[0.625s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/open_manipulator_state.h
+[0.630s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.634s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_joint_position__functions.h
+[0.639s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_joint_position__struct.h
+[0.642s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_joint_position__type_support.h
+[0.645s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_kinematics_pose__functions.h
+[0.649s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_kinematics_pose__struct.h
+[0.652s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_kinematics_pose__type_support.h
+[0.657s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_actuator_state__functions.h
+[0.660s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_actuator_state__struct.h
+[0.664s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_actuator_state__type_support.h
+[0.670s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_drawing_trajectory__functions.h
+[0.672s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_drawing_trajectory__struct.h
+[0.675s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_drawing_trajectory__type_support.h
+[0.679s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_joint_position__functions.h
+[0.688s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_joint_position__struct.h
+[0.697s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_joint_position__type_support.h
+[0.705s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_kinematics_pose__functions.h
+[0.714s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_kinematics_pose__struct.h
+[0.723s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_kinematics_pose__type_support.h
+[0.732s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/get_joint_position.h
+[0.742s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/get_kinematics_pose.h
+[0.753s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/set_actuator_state.h
+[0.763s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/set_drawing_trajectory.h
+[0.772s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/set_joint_position.h
+[0.784s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/set_kinematics_pose.h
+[0.794s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/environment/library_path.sh
+[0.803s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/environment/library_path.dsv
+[0.812s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/joint_position__rosidl_typesupport_fastrtps_c.h
+[0.822s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/kinematics_pose__rosidl_typesupport_fastrtps_c.h
+[0.838s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/open_manipulator_state__rosidl_typesupport_fastrtps_c.h
+[0.849s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.864s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_joint_position__rosidl_typesupport_fastrtps_c.h
+[0.880s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_kinematics_pose__rosidl_typesupport_fastrtps_c.h
+[0.890s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_actuator_state__rosidl_typesupport_fastrtps_c.h
+[0.899s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_drawing_trajectory__rosidl_typesupport_fastrtps_c.h
+[0.909s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_joint_position__rosidl_typesupport_fastrtps_c.h
+[0.921s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_kinematics_pose__rosidl_typesupport_fastrtps_c.h
+[0.936s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/joint_position__builder.hpp
+[0.947s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/joint_position__struct.hpp
+[0.960s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/joint_position__traits.hpp
+[0.967s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/joint_position__type_support.hpp
+[0.979s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/kinematics_pose__builder.hpp
+[0.988s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/kinematics_pose__struct.hpp
+[0.997s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/kinematics_pose__traits.hpp
+[1.007s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/kinematics_pose__type_support.hpp
+[1.015s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/open_manipulator_state__builder.hpp
+[1.024s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/open_manipulator_state__struct.hpp
+[1.035s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/open_manipulator_state__traits.hpp
+[1.043s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/open_manipulator_state__type_support.hpp
+[1.051s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/joint_position.hpp
+[1.059s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/kinematics_pose.hpp
+[1.070s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/open_manipulator_state.hpp
+[1.079s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.089s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_joint_position__builder.hpp
+[1.098s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_joint_position__struct.hpp
+[1.107s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_joint_position__traits.hpp
+[1.115s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_joint_position__type_support.hpp
+[1.125s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_kinematics_pose__builder.hpp
+[1.136s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_kinematics_pose__struct.hpp
+[1.144s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_kinematics_pose__traits.hpp
+[1.151s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_kinematics_pose__type_support.hpp
+[1.160s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_actuator_state__builder.hpp
+[1.174s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_actuator_state__struct.hpp
+[1.186s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_actuator_state__traits.hpp
+[1.197s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_actuator_state__type_support.hpp
+[1.205s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_drawing_trajectory__builder.hpp
+[1.214s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_drawing_trajectory__struct.hpp
+[1.223s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_drawing_trajectory__traits.hpp
+[1.232s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_drawing_trajectory__type_support.hpp
+[1.248s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_joint_position__builder.hpp
+[1.255s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_joint_position__struct.hpp
+[1.263s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_joint_position__traits.hpp
+[1.272s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_joint_position__type_support.hpp
+[1.277s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_kinematics_pose__builder.hpp
+[1.287s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_kinematics_pose__struct.hpp
+[1.295s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_kinematics_pose__traits.hpp
+[1.304s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_kinematics_pose__type_support.hpp
+[1.313s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/get_joint_position.hpp
+[1.322s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/get_kinematics_pose.hpp
+[1.334s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/set_actuator_state.hpp
+[1.338s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/set_drawing_trajectory.hpp
+[1.347s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/set_joint_position.hpp
+[1.356s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/set_kinematics_pose.hpp
+[1.366s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/joint_position__rosidl_typesupport_fastrtps_cpp.hpp
+[1.377s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/kinematics_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[1.385s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/open_manipulator_state__rosidl_typesupport_fastrtps_cpp.hpp
+[1.394s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.406s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_joint_position__rosidl_typesupport_fastrtps_cpp.hpp
+[1.415s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_kinematics_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[1.423s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_actuator_state__rosidl_typesupport_fastrtps_cpp.hpp
+[1.431s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_drawing_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[1.443s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_joint_position__rosidl_typesupport_fastrtps_cpp.hpp
+[1.459s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_kinematics_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[1.470s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/joint_position__rosidl_typesupport_introspection_c.h
+[1.480s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/kinematics_pose__rosidl_typesupport_introspection_c.h
+[1.490s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/open_manipulator_state__rosidl_typesupport_introspection_c.h
+[1.499s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.509s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_joint_position__rosidl_typesupport_introspection_c.h
+[1.522s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_kinematics_pose__rosidl_typesupport_introspection_c.h
+[1.536s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_actuator_state__rosidl_typesupport_introspection_c.h
+[1.545s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_drawing_trajectory__rosidl_typesupport_introspection_c.h
+[1.555s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_joint_position__rosidl_typesupport_introspection_c.h
+[1.567s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_kinematics_pose__rosidl_typesupport_introspection_c.h
+[1.578s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/joint_position__rosidl_typesupport_introspection_cpp.hpp
+[1.593s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/kinematics_pose__rosidl_typesupport_introspection_cpp.hpp
+[1.607s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/msg/detail/open_manipulator_state__rosidl_typesupport_introspection_cpp.hpp
+[1.619s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_joint_position__rosidl_typesupport_introspection_cpp.hpp
+[1.630s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/get_kinematics_pose__rosidl_typesupport_introspection_cpp.hpp
+[1.641s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_actuator_state__rosidl_typesupport_introspection_cpp.hpp
+[1.651s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_drawing_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[1.660s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_joint_position__rosidl_typesupport_introspection_cpp.hpp
+[1.669s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/include/open_manipulator_msgs/open_manipulator_msgs/srv/detail/set_kinematics_pose__rosidl_typesupport_introspection_cpp.hpp
+[1.678s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/environment/pythonpath.sh
+[1.688s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/environment/pythonpath.dsv
+[1.692s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs-2.2.0-py3.12.egg-info/PKG-INFO
+[1.697s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs-2.2.0-py3.12.egg-info/SOURCES.txt
+[1.701s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs-2.2.0-py3.12.egg-info/dependency_links.txt
+[1.705s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs-2.2.0-py3.12.egg-info/top_level.txt
+[1.710s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs/__init__.py
+[1.715s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs/_open_manipulator_msgs_s.ep.rosidl_typesupport_c.c
+[1.718s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs/_open_manipulator_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.722s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs/_open_manipulator_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.732s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs/msg/__init__.py
+[1.735s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs/msg/_joint_position.py
+[1.751s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs/msg/_joint_position_s.c
+[1.755s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs/msg/_kinematics_pose.py
+[1.757s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs/msg/_kinematics_pose_s.c
+[1.761s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs/msg/_open_manipulator_state.py
+[1.765s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs/msg/_open_manipulator_state_s.c
+[1.769s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs/open_manipulator_msgs_s__rosidl_typesupport_c.so
+[1.772s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs/open_manipulator_msgs_s__rosidl_typesupport_fastrtps_c.so
+[1.776s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs/open_manipulator_msgs_s__rosidl_typesupport_introspection_c.so
+[1.780s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs/srv/__init__.py
+[1.783s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs/srv/_get_joint_position.py
+[1.789s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs/srv/_get_joint_position_s.c
+[1.791s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs/srv/_get_kinematics_pose.py
+[1.794s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs/srv/_get_kinematics_pose_s.c
+[1.797s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs/srv/_set_actuator_state.py
+[1.801s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs/srv/_set_actuator_state_s.c
+[1.805s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs/srv/_set_drawing_trajectory.py
+[1.811s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs/srv/_set_drawing_trajectory_s.c
+[1.813s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs/srv/_set_joint_position.py
+[1.817s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs/srv/_set_joint_position_s.c
+[1.821s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs/srv/_set_kinematics_pose.py
+[1.824s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs/srv/_set_kinematics_pose_s.c
+[1.827s] -- Up-to-date symlink: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs/open_manipulator_msgs_s__rosidl_typesupport_fastrtps_c.so
+[1.829s] -- Up-to-date symlink: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs/open_manipulator_msgs_s__rosidl_typesupport_introspection_c.so
+[1.829s] -- Up-to-date symlink: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs/open_manipulator_msgs_s__rosidl_typesupport_c.so
+[1.830s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/rust/Cargo.toml
+[1.834s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/rust/build.rs
+[1.841s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/rust/src/lib.rs
+[1.843s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/rust/src/msg.rs
+[1.848s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/rust/src/msg/rmw.rs
+[1.855s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/rust/src/srv.rs
+[1.862s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/rust/src/srv/rmw.rs
+[1.866s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/msg/JointPosition.idl
+[1.874s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/msg/KinematicsPose.idl
+[1.879s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/msg/OpenManipulatorState.idl
+[1.881s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/srv/GetJointPosition.idl
+[1.886s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/srv/GetKinematicsPose.idl
+[1.889s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/srv/SetJointPosition.idl
+[1.893s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/srv/SetKinematicsPose.idl
+[1.897s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/srv/SetDrawingTrajectory.idl
+[1.900s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/srv/SetActuatorState.idl
+[1.905s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/msg/JointPosition.msg
+[1.910s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/msg/KinematicsPose.msg
+[1.911s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/msg/OpenManipulatorState.msg
+[1.915s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/srv/GetJointPosition.srv
+[1.918s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/srv/GetKinematicsPose.srv
+[1.922s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/srv/SetJointPosition.srv
+[1.925s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/srv/SetKinematicsPose.srv
+[1.929s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/srv/SetDrawingTrajectory.srv
+[1.932s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/srv/SetActuatorState.srv
+[1.937s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/ament_index/resource_index/package_run_dependencies/open_manipulator_msgs
+[1.944s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/ament_index/resource_index/parent_prefix_path/open_manipulator_msgs
+[1.946s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/environment/ament_prefix_path.sh
+[1.949s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/environment/ament_prefix_path.dsv
+[1.955s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/environment/path.sh
+[1.959s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/environment/path.dsv
+[1.969s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/local_setup.bash
+[1.975s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/local_setup.sh
+[1.979s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/local_setup.zsh
+[1.983s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/local_setup.dsv
+[1.988s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/package.dsv
+[1.995s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/ament_index/resource_index/packages/open_manipulator_msgs
+[2.001s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/rosidl_cmake-extras.cmake
+[2.009s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.018s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.027s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.037s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.046s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.062s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.078s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[2.097s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/open_manipulator_msgsConfig.cmake
+[2.113s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/open_manipulator_msgsConfig-version.cmake
+[2.133s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/package.xml
+[2.146s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/libopen_manipulator_msgs__rosidl_generator_c.so
+[2.151s] -- Set non-toolchain portion of runtime path of "/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/libopen_manipulator_msgs__rosidl_generator_c.so" to ""
+[2.151s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/libopen_manipulator_msgs__rosidl_typesupport_fastrtps_c.so
+[2.151s] -- Set non-toolchain portion of runtime path of "/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/libopen_manipulator_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[2.151s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/libopen_manipulator_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.151s] -- Set non-toolchain portion of runtime path of "/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/libopen_manipulator_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.151s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/libopen_manipulator_msgs__rosidl_typesupport_introspection_c.so
+[2.155s] -- Set non-toolchain portion of runtime path of "/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/libopen_manipulator_msgs__rosidl_typesupport_introspection_c.so" to ""
+[2.155s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/libopen_manipulator_msgs__rosidl_typesupport_c.so
+[2.155s] -- Set non-toolchain portion of runtime path of "/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/libopen_manipulator_msgs__rosidl_typesupport_c.so" to ""
+[2.155s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/libopen_manipulator_msgs__rosidl_typesupport_introspection_cpp.so
+[2.155s] -- Set non-toolchain portion of runtime path of "/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/libopen_manipulator_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[2.155s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/libopen_manipulator_msgs__rosidl_typesupport_cpp.so
+[2.157s] -- Set non-toolchain portion of runtime path of "/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/libopen_manipulator_msgs__rosidl_typesupport_cpp.so" to ""
+[2.240s] Listing '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs'...
+[2.240s] Compiling '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs/__init__.py'...
+[2.240s] Listing '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs/msg'...
+[2.240s] Compiling '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs/msg/__init__.py'...
+[2.240s] Compiling '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs/msg/_joint_position.py'...
+[2.240s] Compiling '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs/msg/_kinematics_pose.py'...
+[2.240s] Compiling '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs/msg/_open_manipulator_state.py'...
+[2.240s] Listing '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs/srv'...
+[2.240s] Compiling '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs/srv/__init__.py'...
+[2.240s] Compiling '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs/srv/_get_joint_position.py'...
+[2.240s] Compiling '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs/srv/_get_kinematics_pose.py'...
+[2.240s] Compiling '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs/srv/_set_actuator_state.py'...
+[2.240s] Compiling '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs/srv/_set_drawing_trajectory.py'...
+[2.240s] Compiling '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs/srv/_set_joint_position.py'...
+[2.240s] Compiling '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/python3.12/site-packages/open_manipulator_msgs/srv/_set_kinematics_pose.py'...
+[2.249s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/libopen_manipulator_msgs__rosidl_generator_py.so
+[2.250s] -- Set non-toolchain portion of runtime path of "/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/lib/libopen_manipulator_msgs__rosidl_generator_py.so" to ""
+[2.250s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/export_open_manipulator_msgs__rosidl_generator_cExport.cmake
+[2.250s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/export_open_manipulator_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.250s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/export_open_manipulator_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.254s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/export_open_manipulator_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.254s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/export_open_manipulator_msgs__rosidl_generator_cppExport.cmake
+[2.254s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/export_open_manipulator_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.254s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/export_open_manipulator_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.254s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/open_manipulator_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.254s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/open_manipulator_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.254s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/open_manipulator_msgs__rosidl_typesupport_cExport.cmake
+[2.254s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/open_manipulator_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.254s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/open_manipulator_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.254s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/open_manipulator_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.254s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/open_manipulator_msgs__rosidl_typesupport_cppExport.cmake
+[2.254s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/open_manipulator_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.254s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/export_open_manipulator_msgs__rosidl_generator_pyExport.cmake
+[2.254s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_msgs/share/open_manipulator_msgs/cmake/export_open_manipulator_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.269s] Invoked command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/open_manipulator_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/open_manipulator_msgs
