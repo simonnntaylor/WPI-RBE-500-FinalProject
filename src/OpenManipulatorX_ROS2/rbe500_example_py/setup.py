@@ -22,6 +22,7 @@ setup(
         'console_scripts': [
             'basic_robot_control = rbe500_example_py.basic_robot_control:main',
             'velocity_kinematics = rbe500_example_py.velocity_kinematics:main',
+            'incremental_position = rbe500_example_py.incremental_position:main',
         ],
     },
 )
