@@ -20,6 +20,7 @@
 #define ROBOTIS_MANIPULATOR_LOG_H
 
 #include <unistd.h>
+#include <cstdint>
 #include <vector>
 
 #if defined(__OPENCR__)

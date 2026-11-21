@@ -1,0 +1,24 @@
+[1.557s] Invoking command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py/build --no-deps symlink_data
+[1.891s] running develop
+[2.100s] running egg_info
+[2.100s] creating rbe500_example_py.egg-info
+[2.111s] writing rbe500_example_py.egg-info/PKG-INFO
+[2.111s] writing dependency_links to rbe500_example_py.egg-info/dependency_links.txt
+[2.111s] writing entry points to rbe500_example_py.egg-info/entry_points.txt
+[2.111s] writing requirements to rbe500_example_py.egg-info/requires.txt
+[2.111s] writing top-level names to rbe500_example_py.egg-info/top_level.txt
+[2.111s] writing manifest file 'rbe500_example_py.egg-info/SOURCES.txt'
+[2.144s] reading manifest file 'rbe500_example_py.egg-info/SOURCES.txt'
+[2.145s] writing manifest file 'rbe500_example_py.egg-info/SOURCES.txt'
+[2.164s] running build_ext
+[2.164s] Creating /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/lib/python3.12/site-packages/rbe500-example-py.egg-link (link to .)
+[2.169s] Installing basic_robot_control script to /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/lib/rbe500_example_py
+[2.169s] 
+[2.169s] Installed /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py
+[2.169s] running symlink_data
+[2.169s] creating /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/share/ament_index
+[2.169s] creating /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/share/ament_index/resource_index
+[2.169s] creating /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/share/ament_index/resource_index/packages
+[2.169s] symbolically linking /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py/resource/rbe500_example_py -> /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/share/ament_index/resource_index/packages
+[2.169s] symbolically linking /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py/package.xml -> /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/share/rbe500_example_py
+[2.206s] Invoked command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/rbe500_example_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/rbe500_example_py/build --no-deps symlink_data

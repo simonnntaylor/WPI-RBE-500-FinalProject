@@ -1,0 +1,62 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/ccache - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/ccache - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found dynamixel_workbench_toolbox: 2.2.3 (/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/cmake)
+-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found robotis_manipulator: 1.0.0 (/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/robotis_manipulator/share/robotis_manipulator/cmake)
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/open_manipulator_x_libs
+[ 40%] Building CXX object CMakeFiles/open_manipulator_x_libs.dir/src/dynamixel.cpp.o
+[ 40%] Building CXX object CMakeFiles/open_manipulator_x_libs.dir/src/custom_trajectory.cpp.o
+[ 60%] Building CXX object CMakeFiles/open_manipulator_x_libs.dir/src/kinematics.cpp.o
+[ 80%] Building CXX object CMakeFiles/open_manipulator_x_libs.dir/src/open_manipulator_x.cpp.o
+[100%] Linking CXX shared library libopen_manipulator_x_libs.so
+[100%] Built target open_manipulator_x_libs
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/lib/libopen_manipulator_x_libs.so
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/include//open_manipulator_x_libs/custom_trajectory.hpp
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/include//open_manipulator_x_libs/dynamixel.hpp
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/include//open_manipulator_x_libs/kinematics.hpp
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/include//open_manipulator_x_libs/open_manipulator_x.hpp
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/share/open_manipulator_x_libs/environment/library_path.sh
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/share/open_manipulator_x_libs/environment/library_path.dsv
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/share/ament_index/resource_index/package_run_dependencies/open_manipulator_x_libs
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/share/ament_index/resource_index/parent_prefix_path/open_manipulator_x_libs
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/share/open_manipulator_x_libs/environment/ament_prefix_path.sh
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/share/open_manipulator_x_libs/environment/ament_prefix_path.dsv
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/share/open_manipulator_x_libs/environment/path.sh
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/share/open_manipulator_x_libs/environment/path.dsv
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/share/open_manipulator_x_libs/local_setup.bash
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/share/open_manipulator_x_libs/local_setup.sh
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/share/open_manipulator_x_libs/local_setup.zsh
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/share/open_manipulator_x_libs/local_setup.dsv
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/share/open_manipulator_x_libs/package.dsv
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/share/ament_index/resource_index/packages/open_manipulator_x_libs
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/share/open_manipulator_x_libs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/share/open_manipulator_x_libs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/share/open_manipulator_x_libs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/share/open_manipulator_x_libs/cmake/open_manipulator_x_libsConfig.cmake
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/share/open_manipulator_x_libs/cmake/open_manipulator_x_libsConfig-version.cmake
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/share/open_manipulator_x_libs/package.xml

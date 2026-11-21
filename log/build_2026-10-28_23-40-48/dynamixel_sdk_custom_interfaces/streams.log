@@ -1,0 +1,244 @@
+[0.006s] Invoking command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/DynamixelSDK/dynamixel_sdk_custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces
+[0.078s] -- The C compiler identification is GNU 13.3.0
+[0.142s] -- The CXX compiler identification is GNU 13.3.0
+[0.153s] -- Detecting C compiler ABI info
+[0.226s] -- Detecting C compiler ABI info - done
+[0.230s] -- Check for working C compiler: /usr/bin/ccache - skipped
+[0.231s] -- Detecting C compile features
+[0.231s] -- Detecting C compile features - done
+[0.233s] -- Detecting CXX compiler ABI info
+[0.278s] -- Detecting CXX compiler ABI info - done
+[0.281s] -- Check for working CXX compiler: /usr/bin/ccache - skipped
+[0.281s] -- Detecting CXX compile features
+[0.281s] -- Detecting CXX compile features - done
+[0.287s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.365s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.404s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.437s] -- Found builtin_interfaces: 2.0.4 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[0.469s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.484s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.497s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.525s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.544s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.578s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.120s] -- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.519s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.700s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.705s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.842s] -- Found PythonExtra: /usr/bin/python3  
+[2.333s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.403s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.414s] -- Configuring done (2.4s)
+[2.452s] -- Generating done (0.0s)
+[2.462s] -- Build files have been written to: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/dynamixel_sdk_custom_interfaces
+[2.475s] Invoked command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/DynamixelSDK/dynamixel_sdk_custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces
+[2.475s] Invoking command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/dynamixel_sdk_custom_interfaces -- -j4 -l4
+[2.524s] [  2%] Generating type hashes for ROS interfaces
+[2.530s] [  4%] Generating Rust code for ROS interfaces
+[2.539s] [  4%] Built target ament_cmake_python_symlink_dynamixel_sdk_custom_interfaces
+[2.792s] [  4%] Built target dynamixel_sdk_custom_interfaces__rs
+[2.834s] [  4%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_type_description
+[2.852s] [  6%] Generating C code for ROS interfaces
+[2.855s] [  8%] Generating C++ code for ROS interfaces
+[2.908s] running egg_info
+[2.908s] creating dynamixel_sdk_custom_interfaces.egg-info
+[2.931s] writing dynamixel_sdk_custom_interfaces.egg-info/PKG-INFO
+[2.932s] writing dependency_links to dynamixel_sdk_custom_interfaces.egg-info/dependency_links.txt
+[2.932s] writing top-level names to dynamixel_sdk_custom_interfaces.egg-info/top_level.txt
+[2.932s] writing manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'
+[3.018s] reading manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'
+[3.018s] writing manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'
+[3.071s] [  8%] Built target ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg
+[3.183s] [  8%] Built target dynamixel_sdk_custom_interfaces__cpp
+[3.281s] [ 11%] Building C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/detail/set_position__description.c.o
+[3.281s] [ 13%] Building C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.c.o
+[3.281s] [ 17%] Building C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/detail/set_position__functions.c.o
+[3.281s] [ 17%] Building C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/detail/get_position__description.c.o
+[3.383s] [ 20%] Building C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/detail/get_position__functions.c.o
+[3.400s] [ 22%] Building C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.c.o
+[3.499s] [ 24%] Linking C shared library libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so
+[3.570s] [ 24%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_c
+[3.595s] [ 26%] Generating C introspection for ROS interfaces
+[3.595s] [ 28%] Generating C++ introspection for ROS interfaces
+[3.596s] [ 31%] Generating C type support dispatch for ROS interfaces
+[3.596s] [ 33%] Generating C++ type support dispatch for ROS interfaces
+[3.939s] [ 35%] Building C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.c.o
+[3.979s] [ 37%] Building CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamixel_sdk_custom_interfaces/msg/set_position__type_support.cpp.o
+[3.990s] [ 40%] Building CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamixel_sdk_custom_interfaces/msg/set_position__type_support.cpp.o
+[4.032s] [ 42%] Building CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.cpp.o
+[4.051s] [ 44%] Building C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.c.o
+[4.086s] [ 46%] Building CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamixel_sdk_custom_interfaces/srv/get_position__type_support.cpp.o
+[4.466s] [ 48%] Linking C shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.so
+[4.466s] [ 51%] Linking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_c.so
+[4.466s] [ 51%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c
+[4.466s] [ 53%] Generating C type support for eProsima Fast-RTPS
+[4.466s] [ 53%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c
+[4.466s] [ 55%] Generating C++ type support for eProsima Fast-RTPS
+[4.466s] [ 57%] Building CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamixel_sdk_custom_interfaces/srv/get_position__type_support.cpp.o
+[4.493s] [ 60%] Building CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.cpp.o
+[4.674s] [ 62%] Building CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support_c.cpp.o
+[4.838s] [ 64%] Building CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamixel_sdk_custom_interfaces/msg/detail/dds_fastrtps/set_position__type_support.cpp.o
+[5.004s] [ 66%] Linking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.015s] [ 68%] Linking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.so
+[5.046s] [ 68%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp
+[5.053s] [ 71%] Building CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamixel_sdk_custom_interfaces/srv/detail/dds_fastrtps/get_position__type_support.cpp.o
+[5.089s] [ 71%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp
+[5.103s] [ 73%] Building CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support_c.cpp.o
+[5.593s] [ 75%] Linking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.627s] [ 75%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c
+[5.677s] [ 77%] Linking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.751s] [ 77%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[5.765s] [ 77%] Built target dynamixel_sdk_custom_interfaces
+[5.785s] [ 80%] Generating Python code for ROS interfaces
+[6.215s] [ 80%] Built target dynamixel_sdk_custom_interfaces__py
+[6.234s] [ 82%] Building C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/msg/_set_position_s.c.o
+[6.234s] [ 84%] Building C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/srv/_get_position_s.c.o
+[6.477s] [ 86%] Linking C shared library libdynamixel_sdk_custom_interfaces__rosidl_generator_py.so
+[6.526s] [ 86%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_py
+[6.547s] [ 88%] Building C object CMakeFiles/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[6.552s] [ 91%] Building C object CMakeFiles/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_c.c.o
+[6.552s] [ 93%] Building C object CMakeFiles/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o
+[6.710s] [ 95%] Linking C shared module rosidl_generator_py/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.so
+[6.749s] [ 97%] Linking C shared module rosidl_generator_py/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[6.753s] [ 97%] Built target dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c
+[6.784s] [100%] Linking C shared module rosidl_generator_py/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.so
+[6.786s] [100%] Built target dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c
+[6.810s] [100%] Built target dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c
+[6.817s] Invoked command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/dynamixel_sdk_custom_interfaces -- -j4 -l4
+[6.821s] Invoking command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/dynamixel_sdk_custom_interfaces
+[6.826s] -- Install configuration: ""
+[6.826s] -- Execute custom install script
+[6.827s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/dynamixel_sdk_custom_interfaces
+[6.841s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/msg/SetPosition.json
+[6.846s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition.json
+[6.855s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__functions.h
+[6.868s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__struct.h
+[6.876s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.h
+[6.885s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[6.893s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/set_position.h
+[6.903s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__functions.h
+[6.911s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__struct.h
+[6.922s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.h
+[6.930s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/get_position.h
+[6.939s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/library_path.sh
+[6.945s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/library_path.dsv
+[6.954s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_fastrtps_c.h
+[6.958s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.963s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_fastrtps_c.h
+[6.969s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__builder.hpp
+[6.980s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__struct.hpp
+[6.989s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__traits.hpp
+[6.995s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.hpp
+[6.999s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.008s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/set_position.hpp
+[7.013s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__builder.hpp
+[7.022s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__struct.hpp
+[7.028s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__traits.hpp
+[7.035s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.hpp
+[7.039s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/get_position.hpp
+[7.050s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_fastrtps_cpp.hpp
+[7.058s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.067s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_fastrtps_cpp.hpp
+[7.075s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_introspection_c.h
+[7.082s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.089s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_introspection_c.h
+[7.097s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_introspection_cpp.hpp
+[7.103s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_introspection_cpp.hpp
+[7.113s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/pythonpath.sh
+[7.120s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/pythonpath.dsv
+[7.132s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces-3.7.60-py3.12.egg-info/PKG-INFO
+[7.140s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces-3.7.60-py3.12.egg-info/SOURCES.txt
+[7.149s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces-3.7.60-py3.12.egg-info/dependency_links.txt
+[7.154s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces-3.7.60-py3.12.egg-info/top_level.txt
+[7.168s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/__init__.py
+[7.169s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_c.c
+[7.169s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.173s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[7.176s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.so
+[7.179s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[7.182s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.so
+[7.185s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/msg/__init__.py
+[7.189s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/msg/_set_position.py
+[7.192s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/msg/_set_position_s.c
+[7.196s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/srv/__init__.py
+[7.205s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/srv/_get_position.py
+[7.218s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/srv/_get_position_s.c
+[7.222s] -- Up-to-date symlink: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[7.222s] -- Up-to-date symlink: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.so
+[7.222s] -- Up-to-date symlink: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.so
+[7.222s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/rust/Cargo.toml
+[7.227s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/rust/build.rs
+[7.236s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/rust/src/lib.rs
+[7.241s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/rust/src/msg.rs
+[7.246s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/rust/src/msg/rmw.rs
+[7.250s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/rust/src/srv.rs
+[7.254s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/rust/src/srv/rmw.rs
+[7.259s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/msg/SetPosition.idl
+[7.263s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition.idl
+[7.266s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/msg/SetPosition.msg
+[7.270s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition.srv
+[7.277s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_custom_interfaces
+[7.284s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_custom_interfaces
+[7.293s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/ament_prefix_path.sh
+[7.294s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/ament_prefix_path.dsv
+[7.298s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/path.sh
+[7.302s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/path.dsv
+[7.306s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.bash
+[7.309s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.sh
+[7.313s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.zsh
+[7.316s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.dsv
+[7.319s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.dsv
+[7.328s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/packages/dynamixel_sdk_custom_interfaces
+[7.333s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[7.336s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.340s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.344s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[7.350s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[7.356s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.364s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.373s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[7.385s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfacesConfig.cmake
+[7.394s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfacesConfig-version.cmake
+[7.399s] -- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.xml
+[7.410s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so
+[7.410s] -- Set non-toolchain portion of runtime path of "/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so" to ""
+[7.410s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.so
+[7.410s] -- Set non-toolchain portion of runtime path of "/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[7.410s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[7.410s] -- Set non-toolchain portion of runtime path of "/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.410s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.so
+[7.410s] -- Set non-toolchain portion of runtime path of "/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[7.410s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_c.so
+[7.410s] -- Set non-toolchain portion of runtime path of "/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_c.so" to ""
+[7.410s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.so
+[7.410s] -- Set non-toolchain portion of runtime path of "/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[7.410s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.so
+[7.410s] -- Set non-toolchain portion of runtime path of "/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.so" to ""
+[7.431s] Listing '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces'...
+[7.431s] Compiling '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/__init__.py'...
+[7.431s] Listing '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/msg'...
+[7.431s] Compiling '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/msg/__init__.py'...
+[7.431s] Compiling '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/msg/_set_position.py'...
+[7.431s] Listing '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/srv'...
+[7.431s] Compiling '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/srv/__init__.py'...
+[7.431s] Compiling '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages/dynamixel_sdk_custom_interfaces/srv/_get_position.py'...
+[7.437s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_py.so
+[7.437s] -- Set non-toolchain portion of runtime path of "/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_py.so" to ""
+[7.437s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_cExport.cmake
+[7.437s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[7.437s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[7.437s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.437s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_cppExport.cmake
+[7.437s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.437s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.437s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[7.437s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.437s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cExport.cmake
+[7.437s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[7.437s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[7.437s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.437s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cppExport.cmake
+[7.437s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[7.437s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_pyExport.cmake
+[7.437s] -- Installing: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[7.441s] Invoked command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/dynamixel_sdk_custom_interfaces

@@ -1,0 +1,134 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/ccache - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/ccache - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found dynamixel_workbench_toolbox: 2.2.3 (/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/dynamixel_workbench_toolbox/share/dynamixel_workbench_toolbox/cmake)
+-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found robotis_manipulator: 1.0.0 (/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/robotis_manipulator/share/robotis_manipulator/cmake)
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/open_manipulator_x_libs
+[ 40%] Building CXX object CMakeFiles/open_manipulator_x_libs.dir/src/dynamixel.cpp.o
+[ 40%] Building CXX object CMakeFiles/open_manipulator_x_libs.dir/src/custom_trajectory.cpp.o
+[ 60%] Building CXX object CMakeFiles/open_manipulator_x_libs.dir/src/kinematics.cpp.o
+[ 80%] Building CXX object CMakeFiles/open_manipulator_x_libs.dir/src/open_manipulator_x.cpp.o
+/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/custom_trajectory.cpp: In member function ‘virtual void custom_trajectory::Line::setOption(const void*)’:
+/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/custom_trajectory.cpp:93:34: warning: unused parameter ‘arg’ [-Wunused-parameter]
+   93 | void Line::setOption(const void *arg) {}
+      |                      ~~~~~~~~~~~~^~~
+/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/custom_trajectory.cpp: In member function ‘virtual void custom_trajectory::Circle::setOption(const void*)’:
+/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/custom_trajectory.cpp:167:36: warning: unused parameter ‘arg’ [-Wunused-parameter]
+  167 | void Circle::setOption(const void *arg){}
+      |                        ~~~~~~~~~~~~^~~
+/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/custom_trajectory.cpp: In member function ‘virtual void custom_trajectory::Rhombus::setOption(const void*)’:
+/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/custom_trajectory.cpp:260:37: warning: unused parameter ‘arg’ [-Wunused-parameter]
+  260 | void Rhombus::setOption(const void *arg){}
+      |                         ~~~~~~~~~~~~^~~
+/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/custom_trajectory.cpp: In member function ‘virtual void custom_trajectory::Heart::setOption(const void*)’:
+/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/custom_trajectory.cpp:334:35: warning: unused parameter ‘arg’ [-Wunused-parameter]
+  334 | void Heart::setOption(const void *arg){}
+      |                       ~~~~~~~~~~~~^~~
+/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/dynamixel.cpp: In member function ‘bool dynamixel::JointDynamixel::write_goal_position(std::vector<unsigned char>, std::vector<double>)’:
+/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/dynamixel.cpp:268:11: warning: ISO C++ forbids variable length array ‘id_array’ [-Wvla]
+  268 |   uint8_t id_array[actuator_id.size()];
+      |           ^~~~~~~~
+/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/dynamixel.cpp:269:11: warning: ISO C++ forbids variable length array ‘goal_position’ [-Wvla]
+  269 |   int32_t goal_position[actuator_id.size()];
+      |           ^~~~~~~~~~~~~
+/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/dynamixel.cpp: In member function ‘std::vector<robotis_manipulator::_Point> dynamixel::JointDynamixel::receive_all_dynamixel_value(std::vector<unsigned char>)’:
+/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/dynamixel.cpp:293:11: warning: ISO C++ forbids variable length array ‘id_array’ [-Wvla]
+  293 |   uint8_t id_array[actuator_id.size()];
+      |           ^~~~~~~~
+/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/dynamixel.cpp:297:11: warning: ISO C++ forbids variable length array ‘get_current’ [-Wvla]
+  297 |   int32_t get_current[actuator_id.size()];
+      |           ^~~~~~~~~~~
+/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/dynamixel.cpp:298:11: warning: ISO C++ forbids variable length array ‘get_velocity’ [-Wvla]
+  298 |   int32_t get_velocity[actuator_id.size()];
+      |           ^~~~~~~~~~~~
+/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/dynamixel.cpp:299:11: warning: ISO C++ forbids variable length array ‘get_position’ [-Wvla]
+  299 |   int32_t get_position[actuator_id.size()];
+      |           ^~~~~~~~~~~~
+/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/dynamixel.cpp: In member function ‘bool dynamixel::JointDynamixelProfileControl::write_goal_profiling_control_value(std::vector<unsigned char>, std::vector<robotis_manipulator::_Point>)’:
+/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/dynamixel.cpp:604:11: warning: ISO C++ forbids variable length array ‘id_array’ [-Wvla]
+  604 |   uint8_t id_array[actuator_id.size()];
+      |           ^~~~~~~~
+/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/dynamixel.cpp:605:11: warning: ISO C++ forbids variable length array ‘goal_value’ [-Wvla]
+  605 |   int32_t goal_value[actuator_id.size()];
+      |           ^~~~~~~~~~
+/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/dynamixel.cpp: In member function ‘std::vector<robotis_manipulator::_Point> dynamixel::JointDynamixelProfileControl::receive_all_dynamixel_value(std::vector<unsigned char>)’:
+/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/dynamixel.cpp:641:11: warning: ISO C++ forbids variable length array ‘id_array’ [-Wvla]
+  641 |   uint8_t id_array[actuator_id.size()];
+      |           ^~~~~~~~
+/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/dynamixel.cpp:645:11: warning: ISO C++ forbids variable length array ‘get_current’ [-Wvla]
+  645 |   int32_t get_current[actuator_id.size()];
+      |           ^~~~~~~~~~~
+/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/dynamixel.cpp:646:11: warning: ISO C++ forbids variable length array ‘get_velocity’ [-Wvla]
+  646 |   int32_t get_velocity[actuator_id.size()];
+      |           ^~~~~~~~~~~~
+/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/dynamixel.cpp:647:11: warning: ISO C++ forbids variable length array ‘get_position’ [-Wvla]
+  647 |   int32_t get_position[actuator_id.size()];
+      |           ^~~~~~~~~~~~
+/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/kinematics.cpp: In member function ‘virtual void kinematics::SolverUsingCRAndJacobian::setOption(const void*)’:
+/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/kinematics.cpp:25:54: warning: unused parameter ‘arg’ [-Wunused-parameter]
+   25 | void SolverUsingCRAndJacobian::setOption(const void *arg){}
+      |                                          ~~~~~~~~~~~~^~~
+/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/kinematics.cpp: In member function ‘virtual void kinematics::SolverUsingCRAndSRJacobian::setOption(const void*)’:
+/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/kinematics.cpp:179:56: warning: unused parameter ‘arg’ [-Wunused-parameter]
+  179 | void SolverUsingCRAndSRJacobian::setOption(const void *arg){}
+      |                                            ~~~~~~~~~~~~^~~
+/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/kinematics.cpp: In member function ‘virtual void kinematics::SolverUsingCRAndSRPositionOnlyJacobian::setOption(const void*)’:
+/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/kinematics.cpp:445:68: warning: unused parameter ‘arg’ [-Wunused-parameter]
+  445 | void SolverUsingCRAndSRPositionOnlyJacobian::setOption(const void *arg){}
+      |                                                        ~~~~~~~~~~~~^~~
+/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/kinematics.cpp: In member function ‘virtual void kinematics::SolverCustomizedforOMChain::setOption(const void*)’:
+/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/open_manipulator/open_manipulator_x_libs/src/kinematics.cpp:711:56: warning: unused parameter ‘arg’ [-Wunused-parameter]
+  711 | void SolverCustomizedforOMChain::setOption(const void *arg){}
+      |                                            ~~~~~~~~~~~~^~~
+[100%] Linking CXX shared library libopen_manipulator_x_libs.so
+[100%] Built target open_manipulator_x_libs
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/lib/libopen_manipulator_x_libs.so
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/include//open_manipulator_x_libs/custom_trajectory.hpp
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/include//open_manipulator_x_libs/dynamixel.hpp
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/include//open_manipulator_x_libs/kinematics.hpp
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/include//open_manipulator_x_libs/open_manipulator_x.hpp
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/share/open_manipulator_x_libs/environment/library_path.sh
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/share/open_manipulator_x_libs/environment/library_path.dsv
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/share/ament_index/resource_index/package_run_dependencies/open_manipulator_x_libs
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/share/ament_index/resource_index/parent_prefix_path/open_manipulator_x_libs
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/share/open_manipulator_x_libs/environment/ament_prefix_path.sh
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/share/open_manipulator_x_libs/environment/ament_prefix_path.dsv
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/share/open_manipulator_x_libs/environment/path.sh
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/share/open_manipulator_x_libs/environment/path.dsv
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/share/open_manipulator_x_libs/local_setup.bash
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/share/open_manipulator_x_libs/local_setup.sh
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/share/open_manipulator_x_libs/local_setup.zsh
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/share/open_manipulator_x_libs/local_setup.dsv
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/share/open_manipulator_x_libs/package.dsv
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/share/ament_index/resource_index/packages/open_manipulator_x_libs
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/share/open_manipulator_x_libs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/share/open_manipulator_x_libs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/share/open_manipulator_x_libs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/share/open_manipulator_x_libs/cmake/open_manipulator_x_libsConfig.cmake
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/share/open_manipulator_x_libs/cmake/open_manipulator_x_libsConfig-version.cmake
+-- Symlinking: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/open_manipulator_x_libs/share/open_manipulator_x_libs/package.xml

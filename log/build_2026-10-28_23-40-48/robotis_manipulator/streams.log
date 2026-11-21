@@ -1,0 +1,148 @@
+[0.011s] Invoking command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/robotis_manipulator': AMENT_PREFIX_PATH=/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/cmake_modules:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/cmake_modules:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/robotis_manipulator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/robotis_manipulator
+[0.075s] -- The C compiler identification is GNU 13.3.0
+[0.153s] -- The CXX compiler identification is GNU 13.3.0
+[0.166s] -- Detecting C compiler ABI info
+[0.229s] -- Detecting C compiler ABI info - done
+[0.234s] -- Check for working C compiler: /usr/bin/ccache - skipped
+[0.234s] -- Detecting C compile features
+[0.235s] -- Detecting C compile features - done
+[0.238s] -- Detecting CXX compiler ABI info
+[0.282s] -- Detecting CXX compiler ABI info - done
+[0.287s] -- Check for working CXX compiler: /usr/bin/ccache - skipped
+[0.287s] -- Detecting CXX compile features
+[0.290s] -- Detecting CXX compile features - done
+[0.297s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.397s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.439s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.459s] -- Found cmake_modules: 0.4.1 (/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/cmake_modules/share/cmake_modules/cmake)
+[0.462s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.497s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.500s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.510s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.520s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.574s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.578s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.633s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.643s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.655s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.752s] -- Configuring done (0.7s)
+[0.758s] -- Generating done (0.0s)
+[0.762s] -- Build files have been written to: /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/robotis_manipulator
+[0.767s] Invoked command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/robotis_manipulator' returned '0': AMENT_PREFIX_PATH=/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/cmake_modules:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/cmake_modules:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/robotis_manipulator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/robotis_manipulator
+[0.770s] Invoking command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/robotis_manipulator': AMENT_PREFIX_PATH=/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/cmake_modules:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/cmake_modules:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/robotis_manipulator -- -j4 -l4
+[0.796s] [ 14%] Building CXX object CMakeFiles/robotis_manipulator.dir/src/robotis_manipulator/robotis_manipulator.cpp.o
+[0.796s] [ 28%] Building CXX object CMakeFiles/robotis_manipulator.dir/src/robotis_manipulator/robotis_manipulator_log.cpp.o
+[0.796s] [ 42%] Building CXX object CMakeFiles/robotis_manipulator.dir/src/robotis_manipulator/robotis_manipulator_common.cpp.o
+[0.798s] [ 57%] Building CXX object CMakeFiles/robotis_manipulator.dir/src/robotis_manipulator/robotis_manipulator_trajectory_generator.cpp.o
+[1.011s] In file included from /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/robotis_manipulator/src/robotis_manipulator/robotis_manipulator_log.cpp:19:
+[1.011s] /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/robotis_manipulator/src/robotis_manipulator/../../include/robotis_manipulator/robotis_manipulator_log.h:54:39: error: ‘uint8_t’ has not been declared
+[1.011s]    54 |   void print(STRING str, double data, uint8_t decimal_point = 3, STRING color = "DEFAULT");
+[1.011s]       |                                       ^~~~~~~
+[1.011s] /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/robotis_manipulator/src/robotis_manipulator/../../include/robotis_manipulator/robotis_manipulator_log.h:56:44: error: ‘uint8_t’ has not been declared
+[1.011s]    56 |   void print(const char* str, double data, uint8_t decimal_point = 3, STRING color = "DEFAULT");
+[1.011s]       |                                            ^~~~~~~
+[1.011s] /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/robotis_manipulator/src/robotis_manipulator/../../include/robotis_manipulator/robotis_manipulator_log.h:59:41: error: ‘uint8_t’ has not been declared
+[1.011s]    59 |   void println(STRING str, double data, uint8_t decimal_point = 3, STRING color = "DEFAULT");
+[1.011s]       |                                         ^~~~~~~
+[1.011s] /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/robotis_manipulator/src/robotis_manipulator/../../include/robotis_manipulator/robotis_manipulator_log.h:61:46: error: ‘uint8_t’ has not been declared
+[1.011s]    61 |   void println(const char* str, double data, uint8_t decimal_point = 3, STRING color = "DEFAULT");
+[1.011s]       |                                              ^~~~~~~
+[1.011s] /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/robotis_manipulator/src/robotis_manipulator/../../include/robotis_manipulator/robotis_manipulator_log.h:64:38: error: ‘uint8_t’ has not been declared
+[1.011s]    64 |   void info(STRING str, double data, uint8_t decimal_point = 3);
+[1.012s]       |                                      ^~~~~~~
+[1.012s] /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/robotis_manipulator/src/robotis_manipulator/../../include/robotis_manipulator/robotis_manipulator_log.h:66:43: error: ‘uint8_t’ has not been declared
+[1.012s]    66 |   void info(const char* str, double data, uint8_t decimal_point = 3);
+[1.012s]       |                                           ^~~~~~~
+[1.012s] /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/robotis_manipulator/src/robotis_manipulator/../../include/robotis_manipulator/robotis_manipulator_log.h:68:38: error: ‘uint8_t’ has not been declared
+[1.012s]    68 |   void warn(STRING str, double data, uint8_t decimal_point = 3);
+[1.012s]       |                                      ^~~~~~~
+[1.012s] /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/robotis_manipulator/src/robotis_manipulator/../../include/robotis_manipulator/robotis_manipulator_log.h:70:43: error: ‘uint8_t’ has not been declared
+[1.012s]    70 |   void warn(const char* str, double data, uint8_t decimal_point = 3);
+[1.012s]       |                                           ^~~~~~~
+[1.012s] /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/robotis_manipulator/src/robotis_manipulator/../../include/robotis_manipulator/robotis_manipulator_log.h:72:39: error: ‘uint8_t’ has not been declared
+[1.012s]    72 |   void error(STRING str, double data, uint8_t decimal_point = 3);
+[1.012s]       |                                       ^~~~~~~
+[1.012s] /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/robotis_manipulator/src/robotis_manipulator/../../include/robotis_manipulator/robotis_manipulator_log.h:74:44: error: ‘uint8_t’ has not been declared
+[1.012s]    74 |   void error(const char* str, double data, uint8_t decimal_point = 3);
+[1.012s]       |                                            ^~~~~~~
+[1.012s] /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/robotis_manipulator/src/robotis_manipulator/../../include/robotis_manipulator/robotis_manipulator_log.h:76:64: error: ‘uint8_t’ has not been declared
+[1.012s]    76 |   template <typename T> void print_vector(std::vector<T> &vec, uint8_t decimal_point = 3)
+[1.012s]       |                                                                ^~~~~~~
+[1.012s] /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/robotis_manipulator/src/robotis_manipulator/../../include/robotis_manipulator/robotis_manipulator_log.h: In function ‘void robotis_manipulator::log::print_vector(std::vector<T>&, int)’:
+[1.012s] /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/robotis_manipulator/src/robotis_manipulator/../../include/robotis_manipulator/robotis_manipulator_log.h:90:10: error: ‘uint8_t’ was not declared in this scope
+[1.012s]    90 |     for (uint8_t i = 0; i < vec.size(); i++)
+[1.012s]       |          ^~~~~~~
+[1.012s] /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/robotis_manipulator/src/robotis_manipulator/../../include/robotis_manipulator/robotis_manipulator_log.h:33:1: note: ‘uint8_t’ is defined in header ‘<cstdint>’; did you forget to ‘#include <cstdint>’?
+[1.012s]    32 |   #include <string>
+[1.012s]   +++ |+#include <cstdint>
+[1.012s]    33 | 
+[1.012s] /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/robotis_manipulator/src/robotis_manipulator/../../include/robotis_manipulator/robotis_manipulator_log.h:90:25: error: ‘i’ was not declared in this scope
+[1.012s]    90 |     for (uint8_t i = 0; i < vec.size(); i++)
+[1.012s]       |                         ^
+[1.012s] /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/robotis_manipulator/src/robotis_manipulator/../../include/robotis_manipulator/robotis_manipulator_log.h: At global scope:
+[1.012s] /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/robotis_manipulator/src/robotis_manipulator/../../include/robotis_manipulator/robotis_manipulator_log.h:101:61: error: ‘uint8_t’ has not been declared
+[1.012s]   101 |   template <typename vector> void print_vector(vector &vec, uint8_t decimal_point = 3)
+[1.012s]       |                                                             ^~~~~~~
+[1.012s] /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/robotis_manipulator/src/robotis_manipulator/../../include/robotis_manipulator/robotis_manipulator_log.h: In function ‘void robotis_manipulator::log::print_vector(vector&, int)’:
+[1.012s] /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/robotis_manipulator/src/robotis_manipulator/../../include/robotis_manipulator/robotis_manipulator_log.h:115:10: error: ‘uint8_t’ was not declared in this scope
+[1.012s]   115 |     for (uint8_t i = 0; i < vec.size(); i++)
+[1.012s]       |          ^~~~~~~
+[1.012s] /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/robotis_manipulator/src/robotis_manipulator/../../include/robotis_manipulator/robotis_manipulator_log.h:115:10: note: ‘uint8_t’ is defined in header ‘<cstdint>’; did you forget to ‘#include <cstdint>’?
+[1.012s] /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/robotis_manipulator/src/robotis_manipulator/../../include/robotis_manipulator/robotis_manipulator_log.h:115:25: error: ‘i’ was not declared in this scope
+[1.012s]   115 |     for (uint8_t i = 0; i < vec.size(); i++)
+[1.012s]       |                         ^
+[1.012s] /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/robotis_manipulator/src/robotis_manipulator/../../include/robotis_manipulator/robotis_manipulator_log.h: At global scope:
+[1.012s] /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/robotis_manipulator/src/robotis_manipulator/../../include/robotis_manipulator/robotis_manipulator_log.h:126:59: error: ‘uint8_t’ has not been declared
+[1.012s]   126 |   template <typename matrix> void print_matrix(matrix &m, uint8_t decimal_point = 3)
+[1.013s]       |                                                           ^~~~~~~
+[1.013s] /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/robotis_manipulator/src/robotis_manipulator/../../include/robotis_manipulator/robotis_manipulator_log.h: In function ‘void robotis_manipulator::log::print_matrix(matrix&, int)’:
+[1.013s] /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/robotis_manipulator/src/robotis_manipulator/../../include/robotis_manipulator/robotis_manipulator_log.h:149:10: error: ‘uint8_t’ was not declared in this scope
+[1.013s]   149 |     for (uint8_t i = 0; i < m.rows(); i++)
+[1.013s]       |          ^~~~~~~
+[1.013s] /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/robotis_manipulator/src/robotis_manipulator/../../include/robotis_manipulator/robotis_manipulator_log.h:149:10: note: ‘uint8_t’ is defined in header ‘<cstdint>’; did you forget to ‘#include <cstdint>’?
+[1.013s] /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/robotis_manipulator/src/robotis_manipulator/../../include/robotis_manipulator/robotis_manipulator_log.h:149:25: error: ‘i’ was not declared in this scope
+[1.013s]   149 |     for (uint8_t i = 0; i < m.rows(); i++)
+[1.013s]       |                         ^
+[1.013s] /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/robotis_manipulator/src/robotis_manipulator/../../include/robotis_manipulator/robotis_manipulator_log.h:155:19: error: expected ‘;’ before ‘j’
+[1.013s]   155 |       for (uint8_t j = 0; j < m.cols(); j++)
+[1.013s]       |                   ^~
+[1.013s]       |                   ;
+[1.013s] /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/robotis_manipulator/src/robotis_manipulator/../../include/robotis_manipulator/robotis_manipulator_log.h:155:27: error: ‘j’ was not declared in this scope
+[1.013s]   155 |       for (uint8_t j = 0; j < m.cols(); j++)
+[1.014s]       |                           ^
+[1.014s] /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/robotis_manipulator/src/robotis_manipulator/robotis_manipulator_log.cpp: At global scope:
+[1.014s] /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/robotis_manipulator/src/robotis_manipulator/robotis_manipulator_log.cpp:36:63: error: ‘uint8_t’ has not been declared
+[1.014s]    36 | void robotis_manipulator::log::print(STRING str, double data, uint8_t decimal_point, STRING color)
+[1.014s]       |                                                               ^~~~~~~
+[1.014s] /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/robotis_manipulator/src/robotis_manipulator/robotis_manipulator_log.cpp:67:68: error: ‘uint8_t’ has not been declared
+[1.014s]    67 | void robotis_manipulator::log::print(const char* str, double data, uint8_t decimal_point, STRING color)
+[1.014s]       |                                                                    ^~~~~~~
+[1.014s] /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/robotis_manipulator/src/robotis_manipulator/robotis_manipulator_log.cpp:100:65: error: ‘uint8_t’ has not been declared
+[1.014s]   100 | void robotis_manipulator::log::println(STRING str, double data, uint8_t decimal_point, STRING color)
+[1.014s]       |                                                                 ^~~~~~~
+[1.014s] /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/robotis_manipulator/src/robotis_manipulator/robotis_manipulator_log.cpp:131:70: error: ‘uint8_t’ has not been declared
+[1.014s]   131 | void robotis_manipulator::log::println(const char* str, double data, uint8_t decimal_point, STRING color)
+[1.014s]       |                                                                      ^~~~~~~
+[1.014s] /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/robotis_manipulator/src/robotis_manipulator/robotis_manipulator_log.cpp:157:62: error: ‘uint8_t’ has not been declared
+[1.014s]   157 | void robotis_manipulator::log::info(STRING str, double data, uint8_t decimal_point)
+[1.014s]       |                                                              ^~~~~~~
+[1.014s] /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/robotis_manipulator/src/robotis_manipulator/robotis_manipulator_log.cpp:176:67: error: ‘uint8_t’ has not been declared
+[1.014s]   176 | void robotis_manipulator::log::info(const char* str, double data, uint8_t decimal_point)
+[1.014s]       |                                                                   ^~~~~~~
+[1.014s] /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/robotis_manipulator/src/robotis_manipulator/robotis_manipulator_log.cpp:197:62: error: ‘uint8_t’ has not been declared
+[1.014s]   197 | void robotis_manipulator::log::warn(STRING str, double data, uint8_t decimal_point)
+[1.014s]       |                                                              ^~~~~~~
+[1.014s] /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/robotis_manipulator/src/robotis_manipulator/robotis_manipulator_log.cpp:220:67: error: ‘uint8_t’ has not been declared
+[1.014s]   220 | void robotis_manipulator::log::warn(const char* str, double data, uint8_t decimal_point)
+[1.014s]       |                                                                   ^~~~~~~
+[1.014s] /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/robotis_manipulator/src/robotis_manipulator/robotis_manipulator_log.cpp:243:63: error: ‘uint8_t’ has not been declared
+[1.014s]   243 | void robotis_manipulator::log::error(STRING str, double data, uint8_t decimal_point)
+[1.014s]       |                                                               ^~~~~~~
+[1.014s] /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/src/OpenManipulatorX_ROS2/robotis_manipulator/src/robotis_manipulator/robotis_manipulator_log.cpp:267:68: error: ‘uint8_t’ has not been declared
+[1.014s]   267 | void robotis_manipulator::log::error(const char* str, double data, uint8_t decimal_point)
+[1.014s]       |                                                                    ^~~~~~~
+[1.015s] gmake[2]: *** [CMakeFiles/robotis_manipulator.dir/build.make:104: CMakeFiles/robotis_manipulator.dir/src/robotis_manipulator/robotis_manipulator_log.cpp.o] Error 1
+[1.015s] gmake[2]: *** Waiting for unfinished jobs....
+[6.910s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/robotis_manipulator.dir/all] Error 2
+[6.911s] gmake: *** [Makefile:146: all] Error 2
+[6.915s] Invoked command in '/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/robotis_manipulator' returned '2': AMENT_PREFIX_PATH=/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/cmake_modules:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/simon-taylor/Documents/WPI-RBE-500-FinalProject/install/cmake_modules:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/simon-taylor/Documents/WPI-RBE-500-FinalProject/build/robotis_manipulator -- -j4 -l4
